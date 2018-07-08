@@ -9,6 +9,20 @@
   margin-right: auto;
 }
 
+
+.iconColor{
+  background-color: #ff6666;
+}
+
+.customButton {
+  color: #fff;
+  background-color: #ff6666;
+  border-color: #ff6666;
+  box-shadow:0 0 0 .2rem rgba(rgba(255, 102, 102, 1));
+  border: none;
+  border-radius: 5px;
+}
+
 /*
     DEMO STYLE
 */
@@ -41,7 +55,9 @@ a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+    box-shadow: none;
+    outline: none !important;
 }
 
 .navbar-btn {
@@ -150,7 +166,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #ff6666;
 }
 
 a[data-toggle="collapse"] {
@@ -168,7 +184,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #ff6666;
 }
 
 ul.CTAs {
@@ -190,7 +206,7 @@ a.download {
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #ff6666 !important;
     color: #fff !important;
 }
 
