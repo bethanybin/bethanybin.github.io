@@ -79,12 +79,24 @@ span {
     transition: all 0.3s;
 }
 
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+
+
+#sidebar.active .sidebar-header img {
+    display: block;
+    width: 150%;
+}
 
 #sidebar ul li a {
     text-align: left;
 }
 
-/* #sidebar.active ul li a {
+#sidebar.active ul li a {
     padding: 20px 10px;
     text-align: center;
     font-size: 0.85em;
@@ -95,9 +107,9 @@ span {
     display: block;
     font-size: 1.8em;
     margin-bottom: 5px;
-} */
+}
 
-/* #sidebar.active ul ul a {
+#sidebar.active ul ul a {
     padding: 10px !important;
 }
 
@@ -108,7 +120,7 @@ span {
     -webkit-transform: translateX(50%);
     -ms-transform: translateX(50%);
     transform: translateX(50%);
-} */
+}
 
 #sidebar .sidebar-header {
     padding: 20px;
@@ -212,9 +224,9 @@ a.article:hover {
         -ms-transform: translateX(50%);
         transform: translateX(50%);
     }
-    /* #sidebar.active {
+    #sidebar.active {
         margin-left: 0 !important;
-    } */
+    }
     #sidebar .sidebar-header h3,
     #sidebar .CTAs {
         display: none;
