@@ -1,6 +1,6 @@
 .profilePic{
   width: 30%;
-  float: left;
+  /* float: left; */
 }
 
 .logo{
@@ -12,6 +12,7 @@
 
 .iconColor{
   background-color: #ff6666;
+
 }
 
 .nameStyle{
@@ -21,16 +22,25 @@
   font-weight: 300;
   line-height: 1.7em;
   color: black;
+  /* padding: 100px; */
+  /* padding-left: 100px; */
+
 }
 
 
 .customLeftButton {
+
   color: #fff;
   background-color: #ff6666;
   border-color: #ff6666;
   box-shadow:0 0 0 .2rem rgba(rgba(255, 102, 102, 1));
   border: none;
   border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
 }
 
 /*
@@ -68,6 +78,7 @@ a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: none;
     outline: none !important;
+    
 }
 
 .navbar-btn {
