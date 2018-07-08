@@ -1,6 +1,19 @@
 .profilePic{
   width: 30%;
-  /* float: left; */
+  float: left;
+  margin-top: -50px;
+}
+
+.heading{
+  float: left;
+}
+
+.imageDiv{
+  float: left;
+}
+
+.textDiv{
+  float: right;
 }
 
 .logo{
@@ -16,15 +29,39 @@
 }
 
 .nameStyle{
-  text-align: center;
+  width: 100%;
+  /* text-align: center; */
   font-family: 'Poppins', sans-serif;
   font-size: 4em;
   font-weight: 300;
   line-height: 1.7em;
   color: black;
-  /* padding: 100px; */
-  /* padding-left: 100px; */
+  /* position: absolute;
+  left: 0; */
 
+  /* top: 10; */
+
+
+
+}
+
+.majorStyle{
+
+
+}
+
+.nameAlign{
+  width: 100%
+  float:left;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+.majorAlign{
+  width: 100%
+  float: left;
+  margin-left: 10px;
+  margin-bottom: -50px;
 }
 
 
@@ -78,7 +115,7 @@ a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: none;
     outline: none !important;
-    
+
 }
 
 .navbar-btn {
@@ -120,6 +157,11 @@ span {
     min-width: 80px;
     max-width: 80px;
     text-align: center;
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+    display: none;
 }
 
 
@@ -169,6 +211,11 @@ span {
     font-size: 1.8em;
 }
 
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
@@ -216,7 +263,7 @@ ul.CTAs a {
     text-align: center;
     font-size: 0.9em !important;
     display: block;
-    <!--border-radius: 5px;-->
+    border-radius: 5px;
     margin-bottom: 5px;
 }
 
