@@ -45,27 +45,22 @@ var config = {
     firebase.auth().signOut();
   });
 
-  document.getElementById('size').addEventListener('click', function(event){
+  let sizeClass = document.getElementsByClassName("sizeclass");
+  let sizeFunction = function(event){
     size = event.target.textContent
     proteinLength = numProtein[size];
     protein = []
     proteinHeader.innerHTML = protein.join(', ');
     console.log(proteinLength)
     sizeHeader.innerHTML = size
-  });
+  }
 
-  // document.getElementById('base').addEventListener('click', function(event){
-  //   const currBase = event.target.textContent;
-  //   if(base.length === baseLength){
-  //     base[0] = currBase;
-  //   }
-  //   else{
-  //     base.push(currBase);
-  //   }
-  //   baseHeader.innerHTML = base.join(', ');
-  // });
+  for(var i = 0; i < sizeClass.length; i++){
+    sizeClass[i].addEventListener('click', sizeFunction, false);
+  }
 
   let baseClass = document.getElementsByClassName("baseclass");
+
   let baseFunction = function(event){
     const currBase = event.target.textContent;
     if(base.length === baseLength){
@@ -80,21 +75,29 @@ var config = {
     }
     baseHeader.innerHTML = base.join(', ');
   }
+
   for(var i = 0; i < baseClass.length; i++){
     baseClass[i].addEventListener('click', baseFunction, false);
   }
 
+  let sidesClass = document.getElementsByClassName("sidesclass");
 
-  document.getElementById('sides').addEventListener('click', function(event){
+  let sidesFunction = function(event){
     const currSide = event.target.textContent;
     if(sides.includes(currSide) === false){
       sides.push(currSide);
     }
     console.log(sides)
     sidesHeader.innerHTML = sides.join(', ');
-  });
+  }
 
-  document.getElementById('protein').addEventListener('click', function(event){
+  for(var i = 0; i < sidesClass.length; i++){
+    sidesClass[i].addEventListener('click', sidesFunction, false);
+  }
+
+  let proteinClass = document.getElementsByClassName("proteinclass");
+
+  let proteinFunction = function(event){
     const currProtein = event.target.innerHTML;
     console.log(currProtein)
     if(proteinLength != 0){
@@ -111,28 +114,47 @@ var config = {
     }
     console.log(protein)
     proteinHeader.innerHTML = protein.join(', ');
-  });
+  }
 
-  document.getElementById('veg').addEventListener('click', function(event){
+  for(var i = 0; i < proteinClass.length; i++){
+    proteinClass[i].addEventListener('click', proteinFunction, false);
+  }
+
+  let vegClass = document.getElementsByClassName("vegclass");
+  let vegFunction = function(event){
     const currVeg = event.target.innerHTML;
     if(veg.includes(currVeg) === false){
       veg.push(currVeg);
     }
     vegHeader.innerHTML = veg.join(', ')
-  });
+  }
 
-  document.getElementById('sauce').addEventListener('click', function(event){
+  for(var i = 0; i < vegClass.length; i++){
+    vegClass[i].addEventListener('click', vegFunction, false);
+  }
+
+  let sauceClass = document.getElementsByClassName("sauceclass");
+  let sauceFunction = function(event){
     const currSauce = event.target.innerHTML;
     if(sauce.includes(currSauce) === false){
       sauce.push(currSauce);
     }
     sauceHeader.innerHTML = sauce.join(', ');
-  });
+  }
 
-  document.getElementById('drinks').addEventListener('click', function(event){
+  for(var i = 0; i < sauceClass.length; i++){
+    sauceClass[i].addEventListener('click', sauceFunction, false);
+  }
+
+  let drinksClass = document.getElementsByClassName("drinksclass");
+  let drinksFunction = function(event){
     const currDrink = event.target.innerHTML;
     if(drinks.includes(currDrink) === false){
       drinks.push(currDrink);
     }
     drinksHeader.innerHTML = drinks.join(', ');
-  });
+  }
+
+  for(var i = 0; i < drinksClass.length; i++){
+    drinksClass[i].addEventListener('click', drinksFunction, false);
+  }
