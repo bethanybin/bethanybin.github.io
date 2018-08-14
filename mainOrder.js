@@ -7,6 +7,7 @@ var config = {
     messagingSenderId: "524205687373"
   };
   firebase.initializeApp(config);
+  var database = firebase.database();
   let userId = null;
   let size = null;
   let sizeHeader = document.getElementById('currSize');
@@ -21,6 +22,7 @@ var config = {
     'Medium':3,
     'Large':4
   };
+  var bowlCounter = 1;
   let base = [];
   const baseLength = 2;
   let baseCounter = 0;
@@ -157,4 +159,21 @@ var config = {
 
   for(var i = 0; i < drinksClass.length; i++){
     drinksClass[i].addEventListener('click', drinksFunction, false);
+  }
+
+  document.getElementById('addToCart').addEventListener('click', function(event){
+    let ref = firebase.database().ref().child('users/' + userId + '/Cart');
+    ref.once('value').then(function(snapshot){
+      console.log('hello');
+      bowlCounter = snapshot.numChildren() + 1;
+    });
+    let numBowls = bowlCounter;
+    console.log(numBowls);
+    writeToCart(userId, numBowls);
+  });
+
+  function writeToCart(userId, numBowls) {
+    firebase.database().ref('users/' + userId + '/Cart/Bowl ' + numBowls).update({
+      test: numBowls
+    });
   }
