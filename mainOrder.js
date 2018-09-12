@@ -8,7 +8,13 @@ var config = {
   };
   firebase.initializeApp(config);
   var database = firebase.database();
-  let userId = null;
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  };
+  let userId = getUrlParameter('para1');
   let size = null;
   let sizeHeader = document.getElementById('currSize');
   let baseHeader = document.getElementById('currBase');
@@ -53,7 +59,6 @@ var config = {
     proteinLength = numProtein[size];
     protein = []
     proteinHeader.innerHTML = protein.join(', ');
-    console.log(proteinLength)
     sizeHeader.innerHTML = size
   }
 
@@ -64,6 +69,9 @@ var config = {
   let baseClass = document.getElementsByClassName("baseclass");
 
   let baseFunction = function(event){
+    if(baseHeader.innerHTML === ""){
+      base = [];
+    }
     const currBase = event.target.textContent;
     if(base.length === baseLength){
       if(baseCounter == baseLength){
@@ -85,11 +93,13 @@ var config = {
   let sidesClass = document.getElementsByClassName("sidesclass");
 
   let sidesFunction = function(event){
+    if(sidesHeader.innerHTML === ""){
+      sides = [];
+    }
     const currSide = event.target.textContent;
     if(sides.includes(currSide) === false){
       sides.push(currSide);
     }
-    console.log(sides)
     sidesHeader.innerHTML = sides.join(', ');
   }
 
@@ -100,8 +110,10 @@ var config = {
   let proteinClass = document.getElementsByClassName("proteinclass");
 
   let proteinFunction = function(event){
+    if(proteinHeader.innerHTML === ""){
+      protein = [];
+    }
     const currProtein = event.target.innerHTML;
-    console.log(currProtein)
     if(proteinLength != 0){
       if(protein.length === proteinLength){
         if(proteinCounter === proteinLength){
@@ -114,7 +126,6 @@ var config = {
         proteinCounter = 0;
       }
     }
-    console.log(protein)
     proteinHeader.innerHTML = protein.join(', ');
   }
 
@@ -124,6 +135,9 @@ var config = {
 
   let vegClass = document.getElementsByClassName("vegclass");
   let vegFunction = function(event){
+    if(vegHeader.innerHTML === ""){
+      veg = [];
+    }
     const currVeg = event.target.innerHTML;
     if(veg.includes(currVeg) === false){
       veg.push(currVeg);
@@ -137,6 +151,9 @@ var config = {
 
   let sauceClass = document.getElementsByClassName("sauceclass");
   let sauceFunction = function(event){
+    if(sauceHeader.innerHTML === ""){
+      sauce = [];
+    }
     const currSauce = event.target.innerHTML;
     if(sauce.includes(currSauce) === false){
       sauce.push(currSauce);
@@ -150,6 +167,9 @@ var config = {
 
   let drinksClass = document.getElementsByClassName("drinksclass");
   let drinksFunction = function(event){
+    if(drinksHeader.innerHTML === ""){
+      drinks = [];
+    }
     const currDrink = event.target.innerHTML;
     if(drinks.includes(currDrink) === false){
       drinks.push(currDrink);
@@ -162,18 +182,34 @@ var config = {
   }
 
   document.getElementById('addToCart').addEventListener('click', function(event){
+    console.log(this.userId)
     let ref = firebase.database().ref().child('users/' + userId + '/Cart');
     ref.once('value').then(function(snapshot){
-      console.log('hello');
       bowlCounter = snapshot.numChildren() + 1;
     });
     let numBowls = bowlCounter;
-    console.log(numBowls);
-    writeToCart(userId, numBowls);
+    const drinks = drinksHeader.innerHTML
+    writeToCart(userId, numBowls, drinks);
   });
 
-  function writeToCart(userId, numBowls) {
+  function writeToCart(userId, numBowls, drinks) {
     firebase.database().ref('users/' + userId + '/Cart/Bowl ' + numBowls).update({
-      test: numBowls
+      base: baseHeader.innerHTML,
+      comments: numBowls,
+      price: numBowls,
+      protein: proteinHeader.innerHTML,
+      sauce: sauceHeader.innerHTML,
+      sides: sidesHeader.innerHTML,
+      size: sizeHeader.innerHTML,
+      vegetables: vegHeader.innerHTML,
+      drinks: drinksHeader.innerHTML
     });
+
+    baseHeader.innerHTML = "";
+    proteinHeader.innerHTML = "";
+    sauceHeader.innerHTML = "";
+    sidesHeader.innerHTML = "";
+    sizeHeader.innerHTML = "";
+    vegHeader.innerHTML = "";
+    drinksHeader.innerHTML = "";
   }

@@ -22,7 +22,8 @@ var config = {
 
   firebase.auth().onAuthStateChanged(firebaseUser =>{
     if(firebaseUser) {
-      window.location.replace("mainOrder.html")
+      var queryString = "?para1=" + firebaseUser.uid
+      window.location = "mainOrder.html" + queryString
     }
     else{
       console.log('no one');
