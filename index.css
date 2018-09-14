@@ -31,7 +31,7 @@
 .nameStyle{
   width: 100%;
   /* text-align: center; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier', sans-serif;
   font-size: 4em;
   font-weight: 300;
   line-height: 1.7em;
@@ -52,9 +52,6 @@
 
 .nameAlign{
   width: 100%
-  float:left;
-  margin-left: -30px;
-  margin-top: 20px;
 }
 
 .majorAlign{
@@ -76,6 +73,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 4%
 
 
 }
@@ -213,7 +211,7 @@ span {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #ffffff;
 }
 
 #sidebar ul li a {
