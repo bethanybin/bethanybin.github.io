@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bethany Bin</title>
+
+    <title>BETHANY BIN</title>
+
+    <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script> -->
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 
-  </head>
-  <body>
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
 
+<body>
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <!-- <h3>Bootstrap Sidebar</h3> -->
                 <img src = "assets/BBLogoWhite.png" class="logo"/>
-                <!-- <strong>BS</strong> -->
             </div>
 
             <ul class="list-unstyled components">
-
+                <img src = "assets/bbinround.png" class="profilePic">
+                <p style = "text-align: center">3rd year Math and Computer Science student @ UCSD</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fab fa-adn"></i>
+                    About</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#about">Intro</a>
+                        </li>
+                        <li>
+                            <a href="#interests">Interests</a>
+                        </li>
+                        <li>
+                            <a href="#more">More!</a>
+                        </li>
+                    </ul>
+                </li>
                 <li>
-                  <a href="index1.html">
-                      <i class="fab fa-adn"></i>
-                      About
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-clone"></i>
+                    Projects</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Mobile Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Web Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Other</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#tutoringSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-book"></i>
+                    Tutoring</a>
+                    <ul class="collapse list-unstyled" id="tutoringSubmenu">
+                        <li>
+                            <a href="#">Mathematics</a>
+                        </li>
+                        <li>
+                            <a href="#">Computer Science</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                  <a href="contact.html">
+                      <i class="fas fa-paper-plane"></i>
+                      Contact
                   </a>
-                </li>
-                <li>
-                    <a href="projects.html">
-                        <i class="fas fa-clone"></i>
-                        Projects
-                    </a>
-                </li>
-                <li>
-                    <a href="tutoring.html">
-                        <i class="fas fa-book"></i>
-                        Tutoring
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                        <i class="fas fa-paper-plane"></i>
-                        Contact
-                    </a>
                 </li>
             </ul>
 
             <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="assets/BethanyBinSummer2018.pdf" download class="download">Resume</a>
-                </li>
+              <li>
+                  <a href="assets/BethanyBinSummer2018.pdf" download class="download">Resume</a>
+              </li>
             </ul>
-
-
         </nav>
 
         <!-- Page Content  -->
@@ -65,73 +92,62 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <button type="button" id="sidebarCollapse" class="customLeftButton">
-                      <i class="fas fa-align-left"></i>
-                      <!-- <span>Toggle Sidebar</span> -->
-                  </button>
+
+                    <button type="button" id="sidebarCollapse" class="customLeftButton">
+                        <i class="fas fa-align-left"></i>
+                        <!-- <span>Toggle Sidebar</span> -->
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
 
                     <div class="nameAlign">
-                      <p>
-                        <strong class="nameStyle">BETHANY BIN</strong>
-                      </p>
+                      <strong style = "font-family: 'Courier', sans-serif; font-size: 30px;">Bethany Bin</strong>
+
                     </div>
-                    <!-- <div class="majorAlign">
-                        <p>
-                          <strong class="majorStyle">MATHEMATICS.COMPUTER SCIENCE.</strong>
-                        </p>
-                    </div> -->
-
-
-
-
-                  <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <i class="fas fa-align-justify"></i>
-                  </button>
-
-
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item">
-                              <a class="nav-link" href="https://www.facebook.com/bethanybin">
-                                  <i class="fab fa-facebook-square fa-3x"></i>
+                      <ul class="nav navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/bethanybin">
+                                <i class="fab fa-facebook-square fa-3x" style = "color: #ff6666;"></i>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="https://github.com/bethanybin">
+                                <i class="fab fa-github fa-3x" style = "color: #ff6666;"></i>
                               </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/bethanybin">
-                                  <i class="fab fa-github fa-3x"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.linkedin.com/in/bethanybin/">
-                                  <i class="fab fa-linkedin fa-3x"></i>
-                                </a>
-                            </li>
-                        </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="https://www.linkedin.com/in/bethanybin/">
+                                <i class="fab fa-linkedin fa-3x" style = "color: #ff6666;"></i>
+                              </a>
+                          </li>
+                      </ul>
                     </div>
                 </div>
             </nav>
+            <h2 style = "font-family: 'Courier', sans-serif; font-size: 30px;"><a id="about">About me!</a></h2>
+            <!-- <img src = "assets/bbin.png" class="profilePic"> -->
+            <p style = "font-size: 24px;">I'm a 3rd year Mathematics-Computer Science student at the University of California, San Diego. My interests lie in the intersection of math and computer science as well as finance. More specifically I am constantly looking for opportunities to learn more about mobile development, machine learning, and quantitative development.</p>
+            <p style = "font-size: 24px;">Click on menu button to find my resume as well links to other sections of this website.</p>
 
-            <!-- <div class="imageDiv"> -->
-              <img src = "assets/bbin.png" class="profilePic">
-            <!-- </div> -->
+            <div class="line"></div>
 
-            <!-- <div class="textDiv"> -->
-            <p class="heading">
-              <h2>About Me!</h2></br>
-              <p>I'm a 3rd year Mathematics-Computer Science student at the University of California, San Diego. My interests lie in the intersection of math and computer science as well as finance.
-                Click on menu button to find my resume as well links to other sections of this website.
-              </p>
-            </p>
-            <!-- </div>   -->
+            <h2 style = "font-family: 'Courier', sans-serif; font-size: 30px;"><a id="interests">Interests and Hobbies</a></h2>
+            <p>To stay active I like to play basektball (Go Warriors!) and badminton. I try to hit the Tahoe mountains often during the colder part of the year to ski and snowboard. I am also quite the car enthusiast and I currently drive a Subaru WRX.</p>
+            <p>I try to keep up-to-date with the latest and greatest technology innovations and I've been an Apple fan since I first started using computers. As for other quirky endeavors, I am an amateur 8-ball players and I used to do competitive speedcubing and might try to get back into it <a href="https://www.worldcubeassociation.org/persons/2014BINB01"><u>(WCA profile)</u></a>. I also like to collect <a href="#"><u>mechanical pencils</u></a>!</p>
 
+            <div class="line"></div>
 
-
-
-
-
-
-
+            <h2 style = "font-family: 'Courier', sans-serif; font-size: 30px;"><a id="more">More fun facts</h2>
+            <p>I am not sponsored, though it would be nice, here are some of my can't-live-without items that I use on a daily basis.</p>
+              <ul>
+                <li>Any hydroflask to keep my water cold</li>
+                <li>My top notebook, pen, pencil combo is Leuchtturm1917 Pocket Soft Cover Notebook, Uni-Ball vision rollerball pen, and rOtring 600 0.5mm.</li>
+                <li>Any Trident Layers gum</li>
+                <li>Audio Technica ATH-M50X for my musicial needs</li>
+              </ul>
         </div>
     </div>
 
@@ -149,6 +165,6 @@
             });
         });
     </script>
+</body>
 
-  </body>
 </html>
