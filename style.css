@@ -69,11 +69,15 @@ a:focus {
 }
 
 .profilePic{
-  width: 19%;
-  float: left;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* float: left;
   position: relative;
   margin-top: -30px;
   margin-left: -10px;
+} */
 }
 
 .navbar {
