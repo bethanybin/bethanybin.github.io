@@ -68,6 +68,14 @@ a:focus {
 
 }
 
+.profilePic{
+  width: 19%;
+  float: left;
+  position: relative;
+  margin-top: -30px;
+  margin-left: -10px;
+}
+
 .navbar {
     padding: 15px 10px;
     background: #fff;
@@ -119,7 +127,7 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #ffffff;
 }
 
 #sidebar ul p {
@@ -176,7 +184,7 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #7386D5;
+    color: #ff6666;
 }
 
 a.article,
