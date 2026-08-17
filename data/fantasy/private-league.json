@@ -1,4 +1,179 @@
 {
-  "lastSuccessfulSync": null,
-  "schemaVersion": 1
+  "lastSuccessfulSync": "2026-08-17T23:50:22Z",
+  "league": {
+    "id": "2qe3cztxmo7x0voa",
+    "name": "The Hall of Fame",
+    "season": "2026-27 NBA",
+    "teamCount": 12
+  },
+  "schemaVersion": 1,
+  "team": {
+    "id": "mi5afwp5mo7x0voo",
+    "name": "Troy Bolton",
+    "record": {
+      "losses": 0,
+      "rank": null,
+      "ties": 0,
+      "wins": 0
+    },
+    "roster": [
+      {
+        "group": "active",
+        "name": "LaMelo Ball",
+        "nbaTeam": "MIN",
+        "position": "PG",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Ryan Rollins",
+        "nbaTeam": "MIL",
+        "position": "SG",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Deni Avdija",
+        "nbaTeam": "POR",
+        "position": "SF",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Bobby Portis",
+        "nbaTeam": "MIA",
+        "position": "PF",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Victor Wembanyama",
+        "nbaTeam": "SA",
+        "position": "C",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Ryan Kalkbrenner",
+        "nbaTeam": "CHA",
+        "position": "Flx",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Andrew Nembhard",
+        "nbaTeam": "IND",
+        "position": "Flx2",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Johnny Furphy",
+        "nbaTeam": "IND",
+        "position": "SF",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": true,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Josh Hart",
+        "nbaTeam": "NY",
+        "position": "SG",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Pelle Larsson",
+        "nbaTeam": "MIA",
+        "position": "SG",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Jalen Johnson",
+        "nbaTeam": "ATL",
+        "position": "SF",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Rasheer Fleming",
+        "nbaTeam": "PHO",
+        "position": "PF",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      },
+      {
+        "group": "active",
+        "name": "Coby White",
+        "nbaTeam": "CHA",
+        "position": "SG",
+        "status": {
+          "dayToDay": false,
+          "injuredReserve": false,
+          "out": false,
+          "suspended": false
+        }
+      }
+    ],
+    "rosterCount": 13
+  }
 }
