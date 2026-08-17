@@ -1,0 +1,52 @@
+# macOS and Windows metadata
+.DS_Store
+**/.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets and Fantrax browser sessions
+.env
+.env.*
+!.env.example
+*.cookie
+*.cookies
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# JavaScript dependencies, logs, and caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.parcel-cache/
+
+# GitHub Pages / Jekyll local build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
