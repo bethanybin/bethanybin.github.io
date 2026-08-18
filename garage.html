@@ -9,15 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
     <script src="theme-init.js?v=20260816-12"></script>
-    <link rel="stylesheet" href="site.css?v=20260816-17">
+    <link rel="stylesheet" href="site.css?v=20260817-02">
     <script src="site.js?v=20260816-12" defer></script>
     <script src="garage-timeline.js?v=20260816-13" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="wordmark" href="index.html" aria-label="bbin home">bbin<span class="dot">.</span></a>
+      <a class="wordmark" href="index.html" aria-label="bbin home"><span>bbin<span class="dot">.</span></span><small>too many open tabs</small></a>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a class="active" href="garage.html">garage</a><a href="closet.html">closet</a><a href="fantasy.html">fantasy</a><a href="index.html">about</a>
+        <a class="active" href="garage.html">garage</a><a href="closet.html">closet</a><a href="fantasy.html">fantasy</a><a href="archives.html">archives</a><a href="index.html">about</a>
       </nav>
       <div class="header-actions">
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme"><span class="theme-icon" aria-hidden="true"></span><span data-theme-label>light</span></button>
@@ -28,12 +28,10 @@
     <main class="garage-page">
       <section class="page-intro garage-intro wrap">
         <div>
-          <p class="eyebrow">01 · cars + drives</p>
           <h1>bbin’s<br><span class="blue-underline">garage.</span></h1>
         </div>
         <div class="intro-note">
-          <p>made to be purposeful, built to be mechanically and financially practical, and has appeal to the passionate </p>
-          <span><i class="status-dot"></i> real timeline · details in progress</span>
+          <p>made to be purposeful, built to be mechanically and financially practical, and has appeal to the passionate are all  i look for in a car</p>
         </div>
       </section>
 
@@ -48,7 +46,7 @@
         <div class="timeline-toolbar wrap">
           <div>
             <p class="eyebrow" id="timeline-title">ownership history</p>
-            <p class="timeline-instruction">scroll, swipe, or use the arrows to explore <span aria-hidden="true">→</span></p>
+            <p class="timeline-instruction">scroll, swipe, or use the arrows<span aria-hidden="true">→</span></p>
           </div>
           <div class="timeline-actions">
             <div class="timeline-jumps">
@@ -75,7 +73,6 @@
 
       <section class="car-file wrap" aria-live="polite" aria-labelledby="selected-car-name">
         <div class="car-file-heading">
-          <p class="eyebrow">selected car file</p>
           <p class="section-count"><span data-selected-car-index>01</span> / <span data-car-total>14</span></p>
         </div>
         <div class="car-file-grid">
@@ -100,7 +97,7 @@
             </div>
             <div class="car-story">
               <p class="eyebrow">the story</p>
-              <p data-car-story>The story of this Crosstrek will go here. We can add how it entered the garage, memorable drives, modifications, and why it was time to move on.</p>
+              <p data-car-story>ill need some time to populate</p>
             </div>
             <div class="car-tags" data-car-tags><span>Subaru</span><span>XV Crosstrek</span></div>
             <div class="car-navigation">
@@ -110,14 +107,11 @@
           </div>
         </div>
       </section>
-
-      <p class="sample-disclaimer wrap">Ownership dates are real. Photos, mileage, and individual stories are still being added.</p>
       </div>
 
       <section class="garage-stats wrap" id="stats-view" role="tabpanel" data-garage-panel="stats" hidden>
         <div class="stats-heading">
-          <div><p class="eyebrow">garage by the numbers</p><h2><span data-stats-title-count>14</span> cars,<br>one evolving story.</h2></div>
-          <p>Calculated from the same timeline data. Honda and Acura are grouped together, ownership gaps are excluded, and current cars use elapsed time through this month.</p>
+          <div><p class="eyebrow">garage by the numbers</p><h2>fun facts</h2></div>
         </div>
         <div class="stats-summary" data-stats-summary></div>
 
@@ -135,32 +129,35 @@
           <div class="section-heading"><p class="eyebrow">notable numbers</p><p class="section-count">highs + lows</p></div>
           <div class="stats-highlights" data-stats-highlights></div>
         </div>
-        <p class="stats-note">Mileage values are approximate. Current-car mileage remains excluded until supplied.</p>
       </section>
 
       <section class="garage-wishlist wrap" id="wishlist-view" role="tabpanel" data-garage-panel="wishlist" hidden>
         <div class="wishlist-heading">
-          <p class="eyebrow">future garage</p>
-          <h2>want to buys.</h2>
-          <p>Cars I’m actively considering, quietly watching, or keeping on the long-term list.</p>
+          <p class="eyebrow">cars running through my mind</p>
         </div>
         <div class="wishlist-lists">
           <section>
-            <h3>the shortlist</h3>
+            <h3>cars i can see myself owning in the next 5-7 years</h3>
             <ul>
-              <li>add the first car</li>
+              <li>e46 m3 (maybe e36 m3 or  e39 m5)</li>
+              <li>something along the lines of a 981 gts/gt4/spyder (any high strung manual and naturally aspirated cayman)</li>
+              <li>fd2 civic type r</li>
+              <li>r3 (if rivian actually delivers)</li>
+              <li>my 3rd and forever s2000</li>
             </ul>
           </section>
           <section>
-            <h3>someday</h3>
+              <h3>want but think cost:value ratio <em>to me</em> doesn't make sense</h3>
             <ul>
-              <li>add a long-term want</li>
+              <li>996 gt3</li>
+              <li>nissan z</li>
+              <li>the new prelude</li>
+              <li>evo (v, vi, vii, viii, ix)</li>
             </ul>
           </section>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer wrap"><a class="wordmark" href="index.html">bbin<span class="dot">.</span></a><p>made with curiosity and too many open tabs.</p><p>© <span data-current-year>2026</span> bethany bin</p></footer>
   </body>
 </html>

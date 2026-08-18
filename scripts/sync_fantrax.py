@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the public, normalized snapshot for a private Fantrax league."""
+"""Refresh the safe, normalized snapshots used by the fantasy page."""
 
 from __future__ import annotations
 
@@ -11,10 +11,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from fantraxapi import FantraxException, League, NotLoggedIn
+from requests import Session
 
 
-LEAGUE_ID = "2qe3cztxmo7x0voa"
-TEAM_NAME = "Troy Bolton"
+LEAGUES = (
+    {"id": "57fwz0glmsdsmwx1", "team": "The Bounce Passers", "private": False},
+    {"id": "2qe3cztxmo7x0voa", "team": "Troy Bolton", "private": True},
+    {"id": "jjv4bihwmouag1p7", "team": "The Bounce Passers", "private": False},
+    {"id": "rzxjb17qmp0md8ac", "team": "The Bounce Passers", "private": True},
+    {"id": "a1m0ij55molu2hi5", "team": "The Bounce Passers", "private": False},
+)
 
 
 def utc_now() -> str:
@@ -35,10 +41,14 @@ def write_json(path: Path, payload: dict) -> None:
     temporary_path.replace(path)
 
 
+def as_list(value) -> list:
+    return list(value.values()) if isinstance(value, dict) else list(value)
+
+
 def find_record(league: League, team_id: str) -> dict:
     try:
         standings = league.standings()
-        record = next((item for item in standings.ranks.values() if item.team.id == team_id), None)
+        record = next((item for item in as_list(standings.ranks) if item.team.id == team_id), None)
     except (FantraxException, KeyError, TypeError, ValueError):
         record = None
 
@@ -57,11 +67,12 @@ def find_record(league: League, team_id: str) -> dict:
 def roster_rows(team) -> list[dict]:
     roster = team.roster()
     rows = []
-    for row in roster.rows:
+    # Empty active slots remain in Fantrax's row list. The slot boundary is more
+    # reliable than a player's eligible position for separating the two groups.
+    for index, row in enumerate(roster.rows):
         if row.player is None:
             continue
-        position_name = row.position.name.lower()
-        group = "bench" if any(word in position_name for word in ("reserve", "bench", "injured")) else "active"
+        group = "active" if index < roster.active_max else "bench"
         rows.append(
             {
                 "group": group,
@@ -79,113 +90,94 @@ def roster_rows(team) -> list[dict]:
     return rows
 
 
+def snapshot_for(config: dict, session: Session, attempted_at: str) -> dict:
+    league = League(config["id"], session=session)
+    team = league.team(config["team"])
+    players = roster_rows(team)
+    return {
+        "league": {
+            "id": config["id"],
+            "name": league.name,
+            "season": league.year,
+            "teamCount": len(league.teams),
+            "private": config["private"],
+        },
+        "team": {
+            "id": team.id,
+            "name": team.name,
+            "record": find_record(league, team.id),
+            "roster": players,
+            "rosterCount": len(players),
+        },
+        "lastSuccessfulSync": attempted_at,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-root", type=Path, default=Path("data/fantasy"))
     args = parser.parse_args()
 
-    snapshot_path = args.output_root / "private-league.json"
-    status_path = args.output_root / "sync-status.json"
-    previous_snapshot = read_json(snapshot_path)
+    snapshot_path = args.output_root / "leagues.json"
+    status_path = args.output_root / "leagues-sync-status.json"
+    previous = read_json(snapshot_path)
+    previous_by_id = {
+        item.get("league", {}).get("id"): item
+        for item in previous.get("leagues", [])
+        if item.get("league", {}).get("id")
+    }
+
+    # Carry the original private snapshot forward during the data-file migration.
+    legacy = read_json(args.output_root / "private-league.json")
+    legacy_id = legacy.get("league", {}).get("id")
+    if legacy_id and legacy_id not in previous_by_id:
+        legacy.setdefault("league", {})["private"] = True
+        previous_by_id[legacy_id] = legacy
+
     attempted_at = utc_now()
     cookie = os.environ.get("FANTRAX_COOKIE", "").strip()
-
-    if not cookie:
-        write_json(
-            status_path,
-            {
-                "lastAttempt": attempted_at,
-                "lastSuccessfulSync": previous_snapshot.get("lastSuccessfulSync"),
-                "state": "authentication-required",
-            },
-        )
-        print("::error title=Fantrax login required::The FANTRAX_COOKIE repository secret is missing.")
-        return 2
-
     if "\n" in cookie or "\r" in cookie:
-        write_json(
-            status_path,
-            {
-                "lastAttempt": attempted_at,
-                "lastSuccessfulSync": previous_snapshot.get("lastSuccessfulSync"),
-                "state": "authentication-required",
-            },
-        )
         print("::error title=Invalid Fantrax cookie::The cookie secret must be a single-line Cookie header value.")
         return 2
 
-    try:
-        # Supplying the browser's Cookie header avoids persisting or printing it.
-        from requests import Session
-
-        session = Session()
+    session = Session()
+    if cookie:
         session.headers.update({"Cookie": cookie})
-        league = League(LEAGUE_ID, session=session)
-        team = league.team(TEAM_NAME)
-        players = roster_rows(team)
-        record = find_record(league, team.id)
-    except NotLoggedIn:
-        write_json(
-            status_path,
-            {
-                "lastAttempt": attempted_at,
-                "lastSuccessfulSync": previous_snapshot.get("lastSuccessfulSync"),
-                "state": "authentication-required",
-            },
-        )
-        print("::error title=Fantrax login expired::Replace the FANTRAX_COOKIE repository secret with a fresh Cookie header value.")
-        return 2
-    except FantraxException as error:
-        write_json(
-            status_path,
-            {
-                "lastAttempt": attempted_at,
-                "lastSuccessfulSync": previous_snapshot.get("lastSuccessfulSync"),
-                "state": "failed",
-            },
-        )
-        print(f"::error title=Fantrax sync failed::{type(error).__name__}; the last successful snapshot was retained.")
-        return 1
-    except Exception as error:
-        write_json(
-            status_path,
-            {
-                "lastAttempt": attempted_at,
-                "lastSuccessfulSync": previous_snapshot.get("lastSuccessfulSync"),
-                "state": "failed",
-            },
-        )
-        print(f"::error title=Fantrax sync interrupted::{type(error).__name__}; the last successful snapshot was retained.")
-        return 1
 
-    snapshot = {
-        "league": {
-            "id": LEAGUE_ID,
-            "name": league.name,
-            "season": league.year,
-            "teamCount": len(league.teams),
-        },
-        "team": {
-            "id": team.id,
-            "name": team.name,
-            "record": record,
-            "roster": players,
-            "rosterCount": len(players),
-        },
-        "lastSuccessfulSync": attempted_at,
-        "schemaVersion": 1,
-    }
-    write_json(snapshot_path, snapshot)
-    write_json(
-        status_path,
-        {
-            "lastAttempt": attempted_at,
-            "lastSuccessfulSync": attempted_at,
-            "state": "current",
-        },
-    )
-    print(f"Synced {team.name}: {len(players)} players")
-    return 0
+    snapshots = []
+    statuses = {}
+    failures = 0
+    for config in LEAGUES:
+        league_id = config["id"]
+        try:
+            snapshot = snapshot_for(config, session, attempted_at)
+            snapshots.append(snapshot)
+            statuses[league_id] = {"state": "current", "lastSuccessfulSync": attempted_at}
+            print(f"Synced {snapshot['league']['name']} / {snapshot['team']['name']}: {snapshot['team']['rosterCount']} players")
+        except NotLoggedIn:
+            failures += 1
+            if league_id in previous_by_id:
+                snapshots.append(previous_by_id[league_id])
+            statuses[league_id] = {
+                "state": "authentication-required",
+                "lastSuccessfulSync": previous_by_id.get(league_id, {}).get("lastSuccessfulSync"),
+            }
+            print(f"::error title=Fantrax login expired::{league_id} needs a fresh FANTRAX_COOKIE value.")
+        except Exception as error:
+            failures += 1
+            if league_id in previous_by_id:
+                snapshots.append(previous_by_id[league_id])
+            statuses[league_id] = {
+                "state": "failed",
+                "lastSuccessfulSync": previous_by_id.get(league_id, {}).get("lastSuccessfulSync"),
+            }
+            print(f"::error title=Fantrax sync interrupted::{league_id}: {type(error).__name__}; the last snapshot was retained.")
+
+    order = {config["id"]: index for index, config in enumerate(LEAGUES)}
+    snapshots.sort(key=lambda item: order.get(item.get("league", {}).get("id"), 999))
+    write_json(snapshot_path, {"leagues": snapshots, "schemaVersion": 2})
+    write_json(status_path, {"lastAttempt": attempted_at, "leagues": statuses, "schemaVersion": 1})
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

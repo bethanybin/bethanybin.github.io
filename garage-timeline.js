@@ -4,26 +4,26 @@ const timelineEnd = new Date(now.getFullYear(), now.getMonth() + 1, 1);
 const timelineEndValue = `${timelineEnd.getFullYear()}-${String(timelineEnd.getMonth() + 1).padStart(2, '0')}`;
 
 const garageCars = [
-  { name: '2014 Subaru XV Crosstrek', start: '2015-04', end: '2018-06', gaps: [{ start: '2016-09', end: '2017-07' }], miles: '~18k', kicker: 'car 01 · details coming soon', story: 'The story of this Crosstrek will go here. We can add how it entered the garage, memorable drives, modifications, and why it was time to move on.', tags: ['Subaru', 'XV Crosstrek'], color: '#cce8f8', images: [
+  { name: '2014 Subaru XV Crosstrek', start: '2015-04', end: '2018-06', gaps: [{ start: '2016-09', end: '2017-07' }], miles: '~18k', kicker: 'car 01 · details coming soon', story: 'ill need some time to populate', tags: ['Subaru', 'XV Crosstrek'], color: '#cce8f8', images: [
     { src: 'assets/cars/subaru-xv-crosstrek/subaru-xv-01.jpg', alt: 'White 2014 Subaru XV Crosstrek parked outside a house', caption: '' },
     { src: 'assets/cars/subaru-xv-crosstrek/subaru-xv-02.jpg', alt: 'Subie the dog looking out of the passenger window of the white Subaru XV Crosstrek', caption: 'my dog subie in a subie' }
   ] },
-  { name: '2018 Subaru WRX', start: '2018-06', end: '2020-05', miles: '~9k', kicker: 'car 02 · details coming soon', story: 'The story of this WRX will go here. Its ownership begins exactly when the Crosstrek ends, so the two bars meet without overlapping.', tags: ['Subaru', 'WRX'], color: '#79bce8', images: [
+  { name: '2018 Subaru WRX', start: '2018-06', end: '2020-05', miles: '~9k', kicker: 'car 02 · details coming soon', story: 'ill need some time to populate', tags: ['Subaru', 'WRX'], color: '#79bce8', images: [
     { src: 'assets/cars/subaru-wrx/subaru-wrx-01.jpg', alt: 'Bethany standing beside her blue 2018 Subaru WRX', caption: '' },
     { src: 'assets/cars/subaru-wrx/subaru-wrx-02.jpg', alt: 'Front view of the blue 2018 Subaru WRX', caption: '' }
   ] },
-  { name: '2005 Honda S2000', start: '2020-02', end: '2021-11', miles: '~5k', kicker: 'car 03 · details coming soon', story: 'The story of the first S2000 will go here, including what made this particular ownership chapter memorable.', tags: ['Honda', 'S2000'], color: '#d9d5cb' },
-  { name: '2019 Honda Civic Type R', start: '2020-05', end: '2024-06', miles: '~52k', kicker: 'car 04 · details coming soon', story: 'The story of the 2019 Civic Type R will go here. Its bar begins exactly when the WRX ends, without a same-month overlap.', tags: ['Honda', 'Civic Type R'], color: '#98c9e9' },
-  { name: '2022 Mazda MX-5', start: '2022-08', end: '2023-08', miles: '~5k', kicker: 'car 05 · details coming soon', story: 'The story of the MX-5 will go here. We can add ownership notes, favorite drives, photos, and the details that set it apart.', tags: ['Mazda', 'MX-5'], color: '#bfc8ae' },
-  { name: '2005 Honda S2000', start: '2023-10', end: '2026-03', miles: '~7k', kicker: 'car 06 · the return', story: 'The story of the second 2005 S2000 will go here—and, especially, what brought you back to the same model for another chapter.', tags: ['Honda', 'S2000'], color: '#a7d4ee' },
-  { name: '1997 Honda Civic Type R', start: '2024-04', end: null, miles: 'to be added', kicker: 'car 07 · currently owned', story: 'The ongoing story of the 1997 Civic Type R will go here. This entry remains open-ended on the timeline because it is still in the garage.', tags: ['Honda', 'Civic Type R', 'current'], color: '#d6e9f4' },
-  { name: '2024 Honda Civic Type R', start: '2024-06', end: '2024-09', miles: '~3k', kicker: 'car 08 · details coming soon', story: 'The story of the 2024 Civic Type R will go here. This shorter ownership period is drawn proportionally on the timeline.', tags: ['Honda', 'Civic Type R'], color: '#79bce8' },
-  { name: '2021 Honda Civic Type R', start: '2024-09', end: '2025-10', miles: '~16k', kicker: 'car 09 · details coming soon', story: 'The story of the 2021 Civic Type R will go here. Its bar begins exactly when the 2024 model ends, with no same-month overlap.', tags: ['Honda', 'Civic Type R'], color: '#cbd5d9' },
-  { name: '2011 BMW 335d', start: '2025-07', end: '2026-07', miles: '~15k', kicker: 'car 10 · details coming soon', story: 'The story of the BMW 335d will go here. Its July 2026 endpoint meets the Civic Hybrid start without overlapping.', tags: ['BMW', '335d'], color: '#9ed4f5' },
-  { name: '2005 Lotus Elise', start: '2025-08', end: '2025-10', miles: '<50', kicker: 'car 11 · a short chapter', story: 'The story of the Lotus Elise will go here. Its brief ownership period appears as a compact bar while remaining selectable.', tags: ['Lotus', 'Elise'], color: '#d8ccb7' },
-  { name: '2011 Subaru Impreza WRX STi', start: '2025-11', end: null, miles: 'to be added', kicker: 'car 12 · currently owned', story: 'The ongoing story of the Subaru Impreza WRX STi will go here. This entry remains open-ended because it is still in the garage.', tags: ['Subaru', 'WRX STi', 'current'], color: '#9ecce9' },
-  { name: '1991 Acura NSX', start: '2026-01', end: null, miles: 'to be added', kicker: 'car 13 · currently owned', story: 'The ongoing story of the Acura NSX will go here. This entry remains open-ended because it is still in the garage.', tags: ['Acura', 'NSX', 'current'], color: '#79bce8' },
-  { name: '2026 Honda Civic Hybrid', start: '2026-07', end: null, miles: 'to be added', kicker: 'car 14 · currently owned', story: 'The ongoing story of the Civic Hybrid will go here. Its timeline begins as the BMW 335d chapter ends.', tags: ['Honda', 'Civic Hybrid', 'current'], color: '#cce8f8' }
+  { name: '2005 Honda S2000', start: '2020-02', end: '2021-11', miles: '~5k', kicker: 'car 03 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'S2000'], color: '#d9d5cb' },
+  { name: '2019 Honda Civic Type R', start: '2020-05', end: '2024-06', miles: '~52k', kicker: 'car 04 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#98c9e9' },
+  { name: '2022 Mazda MX-5', start: '2022-08', end: '2023-08', miles: '~5k', kicker: 'car 05 · details coming soon', story: 'ill need some time to populate', tags: ['Mazda', 'MX-5'], color: '#bfc8ae' },
+  { name: '2005 Honda S2000', start: '2023-10', end: '2026-03', miles: '~7k', kicker: 'car 06 · the return', story: 'ill need some time to populate', tags: ['Honda', 'S2000'], color: '#a7d4ee' },
+  { name: '1997 Honda Civic Type R', start: '2024-04', end: null, miles: 'to be added', kicker: 'car 07 · currently owned', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R', 'current'], color: '#d6e9f4' },
+  { name: '2024 Honda Civic Type R', start: '2024-06', end: '2024-09', miles: '~3k', kicker: 'car 08 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#79bce8' },
+  { name: '2021 Honda Civic Type R', start: '2024-09', end: '2025-10', miles: '~16k', kicker: 'car 09 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#cbd5d9' },
+  { name: '2011 BMW 335d', start: '2025-07', end: '2026-07', miles: '~15k', kicker: 'car 10 · details coming soon', story: 'ill need some time to populate', tags: ['BMW', '335d'], color: '#9ed4f5' },
+  { name: '2005 Lotus Elise', start: '2025-08', end: '2025-10', miles: '<50', kicker: 'car 11 · a short chapter', story: 'ill need some time to populate', tags: ['Lotus', 'Elise'], color: '#d8ccb7' },
+  { name: '2011 Subaru Impreza WRX STi', start: '2025-11', end: null, miles: 'to be added', kicker: 'car 12 · currently owned', story: 'ill need some time to populate', tags: ['Subaru', 'WRX STi', 'current'], color: '#9ecce9' },
+  { name: '1991 Acura NSX', start: '2026-01', end: null, miles: 'to be added', kicker: 'car 13 · currently owned', story: 'ill need some time to populate', tags: ['Acura', 'NSX', 'current'], color: '#79bce8' },
+  { name: '2026 Honda Civic Hybrid', start: '2026-07', end: null, miles: 'to be added', kicker: 'car 14 · currently owned', story: 'ill need some time to populate', tags: ['Honda', 'Civic Hybrid', 'current'], color: '#cce8f8' }
 ];
 
 const brandColors = {
@@ -289,7 +289,6 @@ function renderStats() {
   const civicCount = garageCars.filter((car) => /\bCivic\b/i.test(car.name)).length;
   const completedDurations = completed.map(activeOwnershipMonths);
 
-  document.querySelector('[data-stats-title-count]').textContent = garageCars.length;
   summary.innerHTML = [
     ['total cars', garageCars.length],
     ['currently owned', current.length],
