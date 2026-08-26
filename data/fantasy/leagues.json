@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-08-26T13:18:25Z",
+      "lastSuccessfulSync": "2026-08-26T20:05:44Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -82,7 +82,7 @@
           {
             "group": "active",
             "name": "Bennedict Mathurin",
-            "nbaTeam": "LAC",
+            "nbaTeam": "NO",
             "position": "F",
             "status": {
               "dayToDay": false,
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-08-26T13:18:25Z",
+      "lastSuccessfulSync": "2026-08-26T20:05:44Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-08-26T13:18:25Z",
+      "lastSuccessfulSync": "2026-08-26T20:05:44Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -644,7 +644,7 @@
           {
             "group": "bench",
             "name": "Bennedict Mathurin",
-            "nbaTeam": "LAC",
+            "nbaTeam": "NO",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -754,7 +754,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-08-26T13:18:25Z",
+      "lastSuccessfulSync": "2026-08-26T20:05:44Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -799,7 +799,7 @@
           {
             "group": "active",
             "name": "Bennedict Mathurin",
-            "nbaTeam": "LAC",
+            "nbaTeam": "NO",
             "position": "G",
             "status": {
               "dayToDay": false,
@@ -981,7 +981,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-08-26T13:18:25Z",
+      "lastSuccessfulSync": "2026-08-26T20:05:44Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
