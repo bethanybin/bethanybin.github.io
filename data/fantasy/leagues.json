@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-12T10:51:31Z",
+      "lastSuccessfulSync": "2026-09-12T15:34:38Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-12T10:51:31Z",
+      "lastSuccessfulSync": "2026-09-12T15:34:38Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -296,45 +296,9 @@
         "roster": [
           {
             "group": "active",
-            "name": "LaMelo Ball",
-            "nbaTeam": "MIN",
-            "position": "PG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Ryan Rollins",
-            "nbaTeam": "MIL",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
             "name": "Deni Avdija",
             "nbaTeam": "POR",
             "position": "SF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Bobby Portis",
-            "nbaTeam": "MIA",
-            "position": "PF",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -365,97 +329,13 @@
               "out": false,
               "suspended": false
             }
-          },
-          {
-            "group": "active",
-            "name": "Andrew Nembhard",
-            "nbaTeam": "IND",
-            "position": "Flx2",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Johnny Furphy",
-            "nbaTeam": "IND",
-            "position": "SF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": true,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Josh Hart",
-            "nbaTeam": "NY",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Pelle Larsson",
-            "nbaTeam": "MIA",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Jalen Johnson",
-            "nbaTeam": "ATL",
-            "position": "SF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Rasheer Fleming",
-            "nbaTeam": "PHO",
-            "position": "PF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Coby White",
-            "nbaTeam": "CHA",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
           }
         ],
-        "rosterCount": 13
+        "rosterCount": 3
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-12T10:51:31Z",
+      "lastSuccessfulSync": "2026-09-12T15:34:38Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -754,7 +634,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-12T10:51:31Z",
+      "lastSuccessfulSync": "2026-09-12T15:34:38Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -981,7 +861,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-12T10:51:31Z",
+      "lastSuccessfulSync": "2026-09-12T15:34:38Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
