@@ -16,13 +16,23 @@ const garageCars = [
   { name: '2019 Honda Civic Type R', start: '2020-05', end: '2024-06', miles: '~52k', kicker: 'car 04 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#98c9e9' },
   { name: '2022 Mazda MX-5', start: '2022-08', end: '2023-08', miles: '~5k', kicker: 'car 05 · details coming soon', story: 'ill need some time to populate', tags: ['Mazda', 'MX-5'], color: '#bfc8ae' },
   { name: '2005 Honda S2000', start: '2023-10', end: '2026-03', miles: '~7k', kicker: 'car 06 · the return', story: 'ill need some time to populate', tags: ['Honda', 'S2000'], color: '#a7d4ee' },
-  { name: '1997 Honda Civic Type R', start: '2024-04', end: null, miles: 'to be added', kicker: 'car 07 · currently owned', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R', 'current'], color: '#d6e9f4' },
+  { name: '1997 Honda Civic Type R', start: '2024-04', end: null, miles: 'to be added', kicker: 'car 07 · currently owned', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R', 'current'], color: '#d6e9f4', images: [
+    { src: 'assets/cars/honda-civic-type-r-1997/civic-type-r-01.jpg', alt: 'White 1997 Honda Civic Type R photographed in motion from above', caption: '' },
+    { src: 'assets/cars/honda-civic-type-r-1997/civic-type-r-02.jpg', alt: 'Rear view of the white 1997 Honda Civic Type R on a road through redwoods', caption: '' },
+    { src: 'assets/cars/honda-civic-type-r-1997/civic-type-r-03.jpg', alt: 'Front view of the white 1997 Honda Civic Type R driving through a forest road', caption: '' },
+    { src: 'assets/cars/honda-civic-type-r-1997/civic-type-r-04.jpg', alt: 'Engine bay of the white 1997 Honda Civic Type R with its red Honda VTEC valve cover', caption: '' },
+    { src: 'assets/cars/honda-civic-type-r-1997/civic-type-r-05.jpg', alt: 'Side profile of the white 1997 Honda Civic Type R parked beside a lake', caption: '' }
+  ] },
   { name: '2024 Honda Civic Type R', start: '2024-06', end: '2024-09', miles: '~3k', kicker: 'car 08 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#79bce8' },
-  { name: '2021 Honda Civic Type R', start: '2024-09', end: '2025-10', miles: '~16k', kicker: 'car 09 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#cbd5d9' },
+  { name: '2021 Honda Civic Type R', start: '2024-09', end: '2025-10', miles: '~16k', kicker: 'car 09 · details coming soon', story: 'ill need some time to populate', tags: ['Honda', 'Civic Type R'], color: '#cbd5d9', images: [
+    { src: 'assets/cars/honda-civic-type-r-2021/civic-type-r-01.jpg', alt: 'Yellow 2021 Honda Civic Type R driving on a city street', caption: '' }
+  ] },
   { name: '2011 BMW 335d', start: '2025-07', end: '2026-07', miles: '~15k', kicker: 'car 10 · details coming soon', story: 'ill need some time to populate', tags: ['BMW', '335d'], color: '#9ed4f5' },
   { name: '2005 Lotus Elise', start: '2025-08', end: '2025-10', miles: '<50', kicker: 'car 11 · a short chapter', story: 'ill need some time to populate', tags: ['Lotus', 'Elise'], color: '#d8ccb7' },
   { name: '2011 Subaru Impreza WRX STi', start: '2025-11', end: null, miles: 'to be added', kicker: 'car 12 · currently owned', story: 'ill need some time to populate', tags: ['Subaru', 'WRX STi', 'current'], color: '#9ecce9' },
-  { name: '1991 Acura NSX', start: '2026-01', end: null, miles: 'to be added', kicker: 'car 13 · currently owned', story: 'ill need some time to populate', tags: ['Acura', 'NSX', 'current'], color: '#79bce8' },
+  { name: '1991 Acura NSX', start: '2026-01', end: null, miles: 'to be added', kicker: 'car 13 · currently owned', story: 'ill need some time to populate', tags: ['Acura', 'NSX', 'current'], color: '#79bce8', images: [
+    { src: 'assets/cars/acura-nsx/acura-nsx-01.jpg', alt: 'Red 1991 Acura NSX parked at a vineyard with its pop-up headlights raised', caption: '' }
+  ] },
   { name: '2026 Honda Civic Hybrid', start: '2026-07', end: null, miles: 'to be added', kicker: 'car 14 · currently owned', story: 'ill need some time to populate', tags: ['Honda', 'Civic Hybrid', 'current'], color: '#cce8f8' }
 ];
 
