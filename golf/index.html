@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bethany Bin's personal golf score and round tracker.">
+    <title>on the course — bbin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <script src="theme-init.js?v=20260816-12"></script>
+    <link rel="stylesheet" href="site.css?v=20260914-10">
+    <script src="site.js?v=20260816-12" defer></script>
+    <script src="golf-data.js?v=20260914-04" defer></script>
+    <script src="golf.js?v=20260914-11" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="bbin home"><span>bbin<span class="dot">.</span></span><small>too many open tabs</small></a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="garage/">garage</a><a href="closet/">closet</a><a href="fantasy/">fantasy</a><a class="active" href="golf/">golf</a><a href="archives/">archives</a><a href="./">about</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme"><span class="theme-icon" aria-hidden="true"></span><span data-theme-label>light</span></button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">menu</button>
+      </div>
+    </header>
+
+    <main class="wrap subpage golf-page">
+      <section class="page-intro section-intro golf-intro">
+        <div><h1>on the<br><span class="blue-underline">course.</span></h1></div>
+        <div class="intro-note"><p>not very good at golf, clearly</p></div>
+      </section>
+
+      <section class="golf-overview" aria-labelledby="golf-overview-title">
+        <div class="section-heading"><p class="eyebrow" id="golf-overview-title">round overview</p></div>
+        <div class="golf-lifetime-stats">
+          <article><span>rounds</span><strong data-stat-rounds>1</strong></article>
+          <article><span>average score</span><strong data-stat-average>—</strong></article>
+          <article><span>personal best</span><strong data-stat-best>—</strong></article>
+          <article><span>courses played</span><strong data-stat-courses>1</strong></article>
+          <article class="handicap-stat"><span>handicap index</span><strong data-stat-handicap>pending</strong><small data-stat-handicap-note>9 / 54 holes logged</small></article>
+        </div>
+      </section>
+
+      <section class="round-history" aria-labelledby="round-history-title">
+        <div class="section-heading"><p class="eyebrow" id="round-history-title">round history</p><p class="section-count">newest first</p></div>
+        <div data-round-history></div>
+      </section>
+    </main>
+  </body>
+</html>

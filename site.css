@@ -33,7 +33,7 @@ button { color: inherit; font: inherit; }
 .wordmark { display: flex; flex-direction: column; align-items: flex-start; font-family: var(--mono); font-size: 1.35rem; font-weight: 500; letter-spacing: -.06em; line-height: .95; }
 .wordmark small { margin-top: 5px; color: var(--muted); font-size: .42rem; font-weight: 400; letter-spacing: .04em; text-transform: uppercase; white-space: nowrap; }
 .dot { color: var(--blue-dark); }
-.site-nav { margin-left: auto; display: flex; align-items: center; gap: 34px; font-family: var(--mono); font-size: .76rem; }
+.site-nav { margin-left: auto; display: flex; align-items: center; gap: clamp(16px, 2.3vw, 34px); font-family: var(--mono); font-size: .76rem; }
 .site-nav a { position: relative; padding: 8px 0; }
 .site-nav a::after { content: ""; height: 2px; width: 0; background: var(--blue); position: absolute; left: 0; bottom: 1px; transition: width 180ms ease; }
 .site-nav a:hover::after, .site-nav a.active::after { width: 100%; }
@@ -99,6 +99,9 @@ h1, h2, h3, p { margin-top: 0; }
 .page-intro { min-height: 170px; padding-block: 22px 18px; }
 .page-intro h1 { margin: 0; }
 .split-intro { display: grid; grid-template-columns: 1.4fr .6fr; gap: 60px; align-items: end; }
+.section-intro { display: grid; grid-template-columns: 1.4fr .6fr; gap: 60px; align-items: end; }
+.section-intro .intro-note { width: 100%; padding-top: 16px; }
+.section-intro .intro-note p { margin-bottom: 0; font-size: .92rem; line-height: 1.55; }
 .intro-note { padding-top: 25px; border-top: 1px solid var(--ink); }
 .intro-note p { font-size: 1.05rem; }
 .intro-note span { color: var(--muted); font-family: var(--mono); font-size: .65rem; text-transform: uppercase; }
@@ -132,13 +135,13 @@ h1, h2, h3, p { margin-top: 0; }
 .closet-nav div { margin-top: 24px; display: flex; gap: 10px; flex-wrap: wrap; }
 .closet-nav div span { padding: 9px 13px; border: 1px solid var(--line); font-family: var(--mono); font-size: .68rem; text-transform: uppercase; }
 
-.fantasy-intro { display: grid; grid-template-columns: 1fr; align-items: end; }
 .fantasy-intro h1 { max-width: 1000px; }
 .fantasy-intro .overall-status { margin-top: 0; }
 .overall-status { margin-top: 55px; padding-top: 20px; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 25px 160px 1fr; align-items: center; }
 .overall-status p { margin: 0; font-family: var(--mono); font-size: .65rem; text-transform: uppercase; }
 .overall-status strong { font-size: 1.05rem; font-weight: 500; }
 .fantasy-dashboard { padding-bottom: 20px; }
+.fantasy-dashboard > .section-heading { border-bottom-color: var(--ink); }
 .league-panel { margin-top: 42px; border: 1px solid var(--ink); }
 .league-panel-top { min-height: 34px; padding: 0 14px; display: flex; align-items: center; justify-content: space-between; gap: 20px; color: var(--paper); background: var(--ink); font-family: var(--mono); font-size: .54rem; text-transform: uppercase; }
 .sync-label { display: inline-flex; align-items: center; gap: 8px; }
@@ -186,6 +189,55 @@ h1, h2, h3, p { margin-top: 0; }
 .league-comments p { margin: 0; color: var(--blue-dark); font-family: var(--mono); font-size: .55rem; text-transform: uppercase; }
 .league-comments span { color: var(--body-copy); font-size: .8rem; }
 
+/* Golf tracker */
+.golf-overview, .round-history { padding-top: 34px; }
+.golf-overview > .section-heading { border-bottom-color: var(--ink); }
+.golf-lifetime-stats { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--ink); }
+.golf-lifetime-stats article { min-height: 82px; padding: 13px 16px; display: flex; flex-direction: column; justify-content: space-between; }
+.golf-lifetime-stats article + article { border-left: 1px solid var(--line); }
+.golf-lifetime-stats span { color: var(--muted); font-family: var(--mono); font-size: .56rem; letter-spacing: .03em; text-transform: uppercase; }
+.golf-lifetime-stats strong { font-family: var(--mono); font-size: 1.25rem; font-weight: 400; }
+.golf-lifetime-stats .handicap-stat { color: #101418; background: var(--blue); }
+.golf-lifetime-stats .handicap-stat span { color: rgba(16, 20, 24, .68); }
+.handicap-stat small { margin-top: 5px; font-family: var(--mono); font-size: .48rem; line-height: 1.35; text-transform: uppercase; }
+.scorecard-wrap { overflow-x: auto; }
+.scorecard { width: 100%; min-width: 520px; border-collapse: collapse; font-family: var(--mono); font-size: .64rem; }
+.scorecard th, .scorecard td { height: 48px; padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: center; }
+.scorecard thead th { color: var(--muted); font-size: .54rem; font-weight: 400; letter-spacing: .04em; text-transform: uppercase; }
+.scorecard tbody th { width: 52px; color: var(--blue-dark); font-weight: 500; }
+.scorecard td:nth-child(2), .scorecard td:nth-child(4), .scorecard td:nth-child(5) { width: 70px; }
+.scorecard td:nth-child(3) { width: 85px; }
+.scorecard tfoot { color: var(--ink); background: var(--blue-soft); }
+.scorecard tfoot th { text-transform: uppercase; }
+.round-history { padding-bottom: 30px; }
+.round-card { width: min(100%, 1120px); margin: 0 auto 14px; }
+.round-card-summary { min-height: 180px; padding: 25px 24px 23px 30px; border: 1px solid var(--ink); border-radius: 28px; overflow: hidden; position: relative; isolation: isolate; list-style: none; display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 28px; align-items: end; color: #fff; background: #315f25; cursor: pointer; transition: border-radius 160ms ease, transform 160ms ease; }
+.round-card-summary::-webkit-details-marker { display: none; }
+.round-card-summary:hover { transform: translateY(-2px); }
+.round-card-summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.round-summary-image, .round-summary-shade { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; }
+.round-summary-image { object-fit: cover; object-position: center; transition: transform 300ms ease; }
+.round-card-summary:hover .round-summary-image { transform: scale(1.015); }
+.round-summary-shade { z-index: -1; background: linear-gradient(90deg, rgba(8, 17, 8, .78) 0%, rgba(8, 17, 8, .28) 58%, rgba(8, 17, 8, .5) 100%); }
+.round-summary-course { min-width: 0; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; text-shadow: 0 1px 10px rgba(0, 0, 0, .55); }
+.round-summary-course strong { overflow: hidden; font-size: clamp(1.2rem, 2.4vw, 1.8rem); font-weight: 500; letter-spacing: -.035em; text-overflow: ellipsis; white-space: nowrap; }
+.round-summary-course small, .round-summary-score small { color: rgba(255, 255, 255, .84); font-family: var(--mono); font-size: .54rem; font-weight: 400; text-transform: uppercase; }
+.round-summary-course small { text-transform: none; }
+.round-summary-course small::before { content: "— "; }
+.round-summary-score { display: flex; flex-direction: column; align-items: end; text-shadow: 0 1px 8px rgba(0, 0, 0, .65); }
+.round-summary-score strong { font-family: var(--mono); font-size: .76rem; font-weight: 500; }
+.round-summary-toggle { min-width: 126px; padding: 9px 15px; border: 1px solid rgba(255, 255, 255, .6); border-radius: 999px; color: #101418; background: var(--blue); font-family: var(--mono); font-size: .54rem; text-align: center; text-transform: uppercase; text-shadow: none; }
+.round-card[open] .round-card-summary { border-radius: 28px 28px 0 0; transform: none; }
+.round-card[open] .round-summary-toggle { font-size: 0; }
+.round-card[open] .round-summary-toggle::after { content: "hide scorecard"; font-size: .54rem; }
+.round-card-expanded { margin: -1px 12px 0; padding: 22px; border: 1px solid var(--ink); border-radius: 0 0 18px 18px; background: var(--white); }
+.round-card-meta { color: var(--body-copy); font-family: var(--mono); font-size: .58rem; }
+.round-card-notes { max-width: 720px; margin: 9px 0 0; color: var(--muted); font-size: .73rem; line-height: 1.45; }
+.round-scorecard-wrap { margin-top: 20px; border: 1px solid var(--line); }
+.round-scorecard th, .round-scorecard td { height: 38px; }
+.round-scorecard tbody td { font-size: .64rem; }
+.draft-scorecard-note { margin: 0; padding: 28px 10px; color: var(--muted); font-family: var(--mono); font-size: .65rem; text-align: center; text-transform: uppercase; }
+
 .about-intro { border-bottom: 1px solid var(--ink); display: grid; grid-template-columns: 1.4fr .6fr; gap: 60px; align-items: end; }
 .about-intro .lede { margin: 0; padding-top: 25px; border-top: 1px solid var(--ink); }
 .about-grid { padding-block: 90px; display: grid; grid-template-columns: .75fr 1fr; gap: clamp(50px, 10vw, 130px); align-items: center; }
@@ -210,7 +262,8 @@ h1, h2, h3, p { margin-top: 0; }
   .department-card { min-height: 420px; }
   .ticker-inner span:nth-child(2) { display: none; }
   .page-intro { min-height: 0; padding-block: 22px 18px; }
-  .split-intro, .fantasy-intro, .about-intro, .feature-placeholder, .about-grid { grid-template-columns: 1fr; }
+  .split-intro, .section-intro, .about-intro, .feature-placeholder, .about-grid { grid-template-columns: 1fr; }
+  .section-intro { gap: 22px; }
   .league-hero { grid-template-columns: 1fr; }
   .league-record { min-height: 145px; }
   .roster-heading { grid-template-columns: 1fr; gap: 20px; }
@@ -260,6 +313,15 @@ h1, h2, h3, p { margin-top: 0; }
   .archive-entry { min-height: 90px; padding: 18px 20px; grid-template-columns: 10px 1fr; gap: 16px; }
   .archive-entry:hover { transform: none; }
   .archive-action { grid-column: 2; }
+  .golf-lifetime-stats { grid-template-columns: repeat(2, 1fr); }
+  .golf-lifetime-stats article:nth-child(3) { border-top: 1px solid var(--line); border-left: 0; }
+  .golf-lifetime-stats article:nth-child(4) { border-top: 1px solid var(--line); }
+  .golf-lifetime-stats .handicap-stat { grid-column: 1 / -1; min-height: 72px; border-top: 1px solid var(--ink); border-left: 0; }
+  .round-card-summary { min-height: 145px; padding: 20px; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; border-radius: 22px; }
+  .round-summary-score { display: none; }
+  .round-summary-toggle { min-width: 98px; padding-inline: 11px; }
+  .round-card[open] .round-card-summary { border-radius: 22px 22px 0 0; }
+  .round-card-expanded { margin-inline: 7px; padding: 17px 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -269,9 +331,6 @@ h1, h2, h3, p { margin-top: 0; }
 
 /* Garage timeline */
 .garage-page { overflow: hidden; }
-.garage-intro { display: grid; grid-template-columns: 1.4fr .6fr; gap: 60px; align-items: end; }
-.garage-intro .intro-note, .closet-intro .intro-note { padding-top: 16px; }
-.garage-intro .intro-note p, .closet-intro .intro-note p { margin-bottom: 0; font-size: .92rem; line-height: 1.55; }
 .garage-intro .intro-note span { display: flex; align-items: center; gap: 10px; }
 .garage-view-tabs { margin-bottom: 30px; display: flex; }
 .garage-view-tabs button { min-width: 130px; padding: 13px 18px; border: 1px solid var(--ink); background: transparent; cursor: pointer; font-family: var(--mono); font-size: .65rem; text-transform: uppercase; }
@@ -405,8 +464,7 @@ h1, h2, h3, p { margin-top: 0; }
 .wishlist-lists li::marker { color: var(--blue-dark); }
 
 @media (max-width: 850px) {
-  .page-intro.split-intro, .garage-intro { gap: 22px; }
-  .garage-intro { grid-template-columns: 1fr; }
+  .page-intro.split-intro { gap: 22px; }
   .timeline-canvas { min-height: 930px; }
   .car-file-grid { grid-template-columns: 1fr; }
   .car-photo-placeholder { min-height: 470px; border-right: 0; border-bottom: 1px solid var(--ink); }
