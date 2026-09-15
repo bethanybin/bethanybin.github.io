@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-15T17:03:04Z",
+      "lastSuccessfulSync": "2026-09-15T21:24:28Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-15T17:03:04Z",
+      "lastSuccessfulSync": "2026-09-15T21:24:28Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -335,7 +335,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-15T17:03:04Z",
+      "lastSuccessfulSync": "2026-09-15T21:24:28Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -357,18 +357,6 @@
             "group": "active",
             "name": "Anthony Black",
             "nbaTeam": "ORL",
-            "position": "PG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Will Richard",
-            "nbaTeam": "GS",
             "position": "PG",
             "status": {
               "dayToDay": false,
@@ -475,13 +463,13 @@
           },
           {
             "group": "bench",
-            "name": "Vince Williams",
-            "nbaTeam": "(N/A)",
+            "name": "Will Richard",
+            "nbaTeam": "GS",
             "position": "SG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -607,6 +595,18 @@
           },
           {
             "group": "bench",
+            "name": "Vince Williams",
+            "nbaTeam": "(N/A)",
+            "position": "SG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": true,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
             "name": "Dylan Harper",
             "nbaTeam": "SA",
             "position": "SG",
@@ -634,7 +634,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-15T17:03:04Z",
+      "lastSuccessfulSync": "2026-09-15T21:24:28Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -861,7 +861,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-15T17:03:04Z",
+      "lastSuccessfulSync": "2026-09-15T21:24:28Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -884,18 +884,6 @@
             "name": "Keyonte George",
             "nbaTeam": "UTA",
             "position": "PG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Chris Duarte",
-            "nbaTeam": "(N/A)",
-            "position": "SG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -1025,18 +1013,6 @@
           },
           {
             "group": "bench",
-            "name": "Ochai Agbaji",
-            "nbaTeam": "(N/A)",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
             "name": "Brayden Burries",
             "nbaTeam": "MIL",
             "position": "SG",
@@ -1144,7 +1120,7 @@
             }
           }
         ],
-        "rosterCount": 22
+        "rosterCount": 20
       }
     }
   ],
