@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-19T20:44:22Z",
+      "lastSuccessfulSync": "2026-09-20T04:57:28Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-19T20:44:22Z",
+      "lastSuccessfulSync": "2026-09-20T04:57:28Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -296,11 +296,35 @@
         "roster": [
           {
             "group": "active",
+            "name": "Dyson Daniels",
+            "nbaTeam": "ATL",
+            "position": "PG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
             "name": "Deni Avdija",
             "nbaTeam": "POR",
             "position": "SF",
             "status": {
               "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "Franz Wagner",
+            "nbaTeam": "ORL",
+            "position": "PF",
+            "status": {
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -331,11 +355,11 @@
             }
           }
         ],
-        "rosterCount": 3
+        "rosterCount": 5
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-19T20:44:22Z",
+      "lastSuccessfulSync": "2026-09-20T04:57:28Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -634,7 +658,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-19T20:44:22Z",
+      "lastSuccessfulSync": "2026-09-20T04:57:28Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -861,7 +885,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-19T20:44:22Z",
+      "lastSuccessfulSync": "2026-09-20T04:57:28Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
