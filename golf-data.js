@@ -83,7 +83,7 @@ window.GOLF_ROUNDS = [
   },
   {
     "id": "los-lagos-2026-09-13",
-    "course": "Los Lago Golf Course",
+    "course": "Los Lagos Golf Course",
     "date": "2026-09-13",
     "image": "assets/golf/course-banner.jpg",
     "location": "",
