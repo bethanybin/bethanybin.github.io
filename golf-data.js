@@ -1,8 +1,89 @@
 // Generated from data/golf/rounds.json by scripts/add_golf_round.py.
 window.GOLF_ROUNDS = [
   {
+    "id": "mariners-point-golf-center-2026-09-20",
+    "course": "Mariners Point Golf Center",
+    "date": "2026-09-20",
+    "image": "assets/golf/mariners-point-golf-center-2026-09-20.jpg",
+    "location": "",
+    "tees": "",
+    "yardage": 1233,
+    "rating": 27.7,
+    "slope": 86,
+    "holes": 9,
+    "notes": "",
+    "differential": null,
+    "adjustedGrossScore": null,
+    "pcc": 0,
+    "holeData": [
+      {
+        "hole": 1,
+        "par": 3,
+        "yardage": 142,
+        "handicap": 4,
+        "score": 7
+      },
+      {
+        "hole": 2,
+        "par": 3,
+        "yardage": 103,
+        "handicap": 9,
+        "score": 4
+      },
+      {
+        "hole": 3,
+        "par": 3,
+        "yardage": 123,
+        "handicap": 7,
+        "score": 5
+      },
+      {
+        "hole": 4,
+        "par": 3,
+        "yardage": 163,
+        "handicap": 3,
+        "score": 10
+      },
+      {
+        "hole": 5,
+        "par": 3,
+        "yardage": 166,
+        "handicap": 5,
+        "score": 6
+      },
+      {
+        "hole": 6,
+        "par": 3,
+        "yardage": 161,
+        "handicap": 1,
+        "score": 6
+      },
+      {
+        "hole": 7,
+        "par": 3,
+        "yardage": 162,
+        "handicap": 2,
+        "score": 5
+      },
+      {
+        "hole": 8,
+        "par": 3,
+        "yardage": 112,
+        "handicap": 8,
+        "score": 5
+      },
+      {
+        "hole": 9,
+        "par": 3,
+        "yardage": 101,
+        "handicap": 6,
+        "score": 9
+      }
+    ]
+  },
+  {
     "id": "los-lagos-2026-09-13",
-    "course": "Los Lagos GC",
+    "course": "Los Lago Golf Course",
     "date": "2026-09-13",
     "image": "assets/golf/course-banner.jpg",
     "location": "",
