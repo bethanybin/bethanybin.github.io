@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-21T12:53:53Z",
+      "lastSuccessfulSync": "2026-09-21T22:00:20Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-21T12:53:53Z",
+      "lastSuccessfulSync": "2026-09-21T22:00:20Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -365,13 +365,25 @@
               "out": false,
               "suspended": false
             }
+          },
+          {
+            "group": "bench",
+            "name": "Ron Holland",
+            "nbaTeam": "DET",
+            "position": "SF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
           }
         ],
-        "rosterCount": 6
+        "rosterCount": 7
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-21T12:53:53Z",
+      "lastSuccessfulSync": "2026-09-21T22:00:20Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -670,7 +682,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-21T12:53:53Z",
+      "lastSuccessfulSync": "2026-09-21T22:00:20Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -897,7 +909,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-21T12:53:53Z",
+      "lastSuccessfulSync": "2026-09-21T22:00:20Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
