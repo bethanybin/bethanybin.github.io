@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-24T17:14:58Z",
+      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T17:14:58Z",
+      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -431,7 +431,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T17:14:58Z",
+      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -526,6 +526,18 @@
             "name": "Donovan Clingan",
             "nbaTeam": "POR",
             "position": "C",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "AJ Dybantsa",
+            "nbaTeam": "WAS",
+            "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -714,11 +726,11 @@
             }
           }
         ],
-        "rosterCount": 22
+        "rosterCount": 23
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T17:14:58Z",
+      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -945,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T17:14:58Z",
+      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
