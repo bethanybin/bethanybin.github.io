@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
+      "lastSuccessfulSync": "2026-09-25T05:01:46Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
+      "lastSuccessfulSync": "2026-09-25T05:01:46Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -431,7 +431,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
+      "lastSuccessfulSync": "2026-09-25T05:01:46Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -730,7 +730,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
+      "lastSuccessfulSync": "2026-09-25T05:01:46Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -870,18 +870,6 @@
           },
           {
             "group": "bench",
-            "name": "Cody Williams",
-            "nbaTeam": "MIN",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
             "name": "Matas Buzelis",
             "nbaTeam": "CHI",
             "position": "SF",
@@ -939,25 +927,13 @@
               "out": false,
               "suspended": false
             }
-          },
-          {
-            "group": "bench",
-            "name": "Vince Williams",
-            "nbaTeam": "(N/A)",
-            "position": "Flx",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": true,
-              "suspended": false
-            }
           }
         ],
-        "rosterCount": 17
+        "rosterCount": 15
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-24T21:33:36Z",
+      "lastSuccessfulSync": "2026-09-25T05:01:46Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
