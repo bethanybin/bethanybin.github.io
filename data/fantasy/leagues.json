@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-26T21:13:43Z",
+      "lastSuccessfulSync": "2026-09-27T05:22:20Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -154,7 +154,7 @@
           {
             "group": "bench",
             "name": "Rob Dillingham",
-            "nbaTeam": "CHI",
+            "nbaTeam": "CHA",
             "position": "SG",
             "status": {
               "dayToDay": true,
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-26T21:13:43Z",
+      "lastSuccessfulSync": "2026-09-27T05:22:20Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -380,6 +380,18 @@
           },
           {
             "group": "bench",
+            "name": "Pat Spencer",
+            "nbaTeam": "PHO",
+            "position": "PG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
             "name": "Max Christie",
             "nbaTeam": "DAL",
             "position": "SG",
@@ -451,11 +463,11 @@
             }
           }
         ],
-        "rosterCount": 13
+        "rosterCount": 14
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-26T21:13:43Z",
+      "lastSuccessfulSync": "2026-09-27T05:22:20Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -778,7 +790,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-26T21:13:43Z",
+      "lastSuccessfulSync": "2026-09-27T05:22:20Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -969,7 +981,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-26T21:13:43Z",
+      "lastSuccessfulSync": "2026-09-27T05:22:20Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
