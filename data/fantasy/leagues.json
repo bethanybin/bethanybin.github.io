@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-27T21:23:40Z",
+      "lastSuccessfulSync": "2026-09-28T05:28:54Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-27T21:23:40Z",
+      "lastSuccessfulSync": "2026-09-28T05:28:54Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -467,7 +467,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-27T21:23:40Z",
+      "lastSuccessfulSync": "2026-09-28T05:28:54Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -802,7 +802,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-27T21:23:40Z",
+      "lastSuccessfulSync": "2026-09-28T05:28:54Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -849,6 +849,18 @@
             "name": "Bennedict Mathurin",
             "nbaTeam": "NO",
             "position": "G",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "Caleb Wilson",
+            "nbaTeam": "CHI",
+            "position": "PF",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -989,11 +1001,11 @@
             }
           }
         ],
-        "rosterCount": 14
+        "rosterCount": 15
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-27T21:23:40Z",
+      "lastSuccessfulSync": "2026-09-28T05:28:54Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
