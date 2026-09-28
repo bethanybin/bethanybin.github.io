@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-28T14:02:09Z",
+      "lastSuccessfulSync": "2026-09-28T23:19:00Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -73,7 +73,7 @@
             "nbaTeam": "ORL",
             "position": "PF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -154,7 +154,7 @@
           {
             "group": "bench",
             "name": "Rob Dillingham",
-            "nbaTeam": "CHA",
+            "nbaTeam": "(N/A)",
             "position": "SG",
             "status": {
               "dayToDay": true,
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-28T14:02:09Z",
+      "lastSuccessfulSync": "2026-09-28T23:19:00Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -336,7 +336,7 @@
             "nbaTeam": "ORL",
             "position": "PF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -467,7 +467,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-28T14:02:09Z",
+      "lastSuccessfulSync": "2026-09-28T23:19:00Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -802,7 +802,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-28T14:02:09Z",
+      "lastSuccessfulSync": "2026-09-28T23:19:00Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -918,6 +918,18 @@
           },
           {
             "group": "bench",
+            "name": "Brayden Burries",
+            "nbaTeam": "MIL",
+            "position": "SG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
             "name": "Nique Clifford",
             "nbaTeam": "SAC",
             "position": "SG",
@@ -1001,11 +1013,11 @@
             }
           }
         ],
-        "rosterCount": 15
+        "rosterCount": 16
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-28T14:02:09Z",
+      "lastSuccessfulSync": "2026-09-28T23:19:00Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
