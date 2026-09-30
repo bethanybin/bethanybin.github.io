@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-09-29T22:19:03Z",
+      "lastSuccessfulSync": "2026-09-30T05:37:06Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-29T22:19:03Z",
+      "lastSuccessfulSync": "2026-09-30T05:37:06Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -467,7 +467,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-29T22:19:03Z",
+      "lastSuccessfulSync": "2026-09-30T05:37:06Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -802,7 +802,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-29T22:19:03Z",
+      "lastSuccessfulSync": "2026-09-30T05:37:06Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -870,11 +870,11 @@
           },
           {
             "group": "active",
-            "name": "Dereck Lively",
-            "nbaTeam": "DAL",
-            "position": "C",
+            "name": "Chris Cenac",
+            "nbaTeam": "BOS",
+            "position": "F",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -887,18 +887,6 @@
             "position": "Flx",
             "status": {
               "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Kon Knueppel",
-            "nbaTeam": "CHA",
-            "position": "Flx",
-            "status": {
-              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1011,13 +999,37 @@
               "out": false,
               "suspended": false
             }
+          },
+          {
+            "group": "bench",
+            "name": "Kon Knueppel",
+            "nbaTeam": "CHA",
+            "position": "Flx",
+            "status": {
+              "dayToDay": true,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Dereck Lively",
+            "nbaTeam": "DAL",
+            "position": "C",
+            "status": {
+              "dayToDay": true,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
           }
         ],
-        "rosterCount": 16
+        "rosterCount": 17
       }
     },
     {
-      "lastSuccessfulSync": "2026-09-29T22:19:03Z",
+      "lastSuccessfulSync": "2026-09-30T05:37:06Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
