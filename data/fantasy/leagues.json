@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-04T21:31:44Z",
+      "lastSuccessfulSync": "2026-10-05T05:46:39Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-04T21:31:44Z",
+      "lastSuccessfulSync": "2026-10-05T05:46:39Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -467,7 +467,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-04T21:31:44Z",
+      "lastSuccessfulSync": "2026-10-05T05:46:39Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -551,7 +551,7 @@
             "nbaTeam": "DEN",
             "position": "PF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -730,7 +730,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-04T21:31:44Z",
+      "lastSuccessfulSync": "2026-10-05T05:46:39Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-04T21:31:44Z",
+      "lastSuccessfulSync": "2026-10-05T05:46:39Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
