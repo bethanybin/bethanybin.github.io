@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-05T14:47:21Z",
+      "lastSuccessfulSync": "2026-10-06T00:05:54Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -49,7 +49,7 @@
             "nbaTeam": "PHI",
             "position": "G",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -276,7 +276,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-05T14:47:21Z",
+      "lastSuccessfulSync": "2026-10-06T00:05:54Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -467,7 +467,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-05T14:47:21Z",
+      "lastSuccessfulSync": "2026-10-06T00:05:54Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -695,7 +695,7 @@
             "nbaTeam": "ORL",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -730,7 +730,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-05T14:47:21Z",
+      "lastSuccessfulSync": "2026-10-06T00:05:54Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-05T14:47:21Z",
+      "lastSuccessfulSync": "2026-10-06T00:05:54Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -1101,7 +1101,7 @@
             "nbaTeam": "SAC",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
