@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-15T17:04:58Z",
+      "lastSuccessfulSync": "2026-10-15T21:26:41Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -154,7 +154,7 @@
           {
             "group": "bench",
             "name": "Ochai Agbaji",
-            "nbaTeam": "NY",
+            "nbaTeam": "(N/A)",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -180,6 +180,18 @@
             "name": "Jared McCain",
             "nbaTeam": "OKC",
             "position": "SG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Baba Miller",
+            "nbaTeam": "LAC",
+            "position": "SF",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -248,11 +260,11 @@
             }
           }
         ],
-        "rosterCount": 19
+        "rosterCount": 20
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-15T17:04:58Z",
+      "lastSuccessfulSync": "2026-10-15T21:26:41Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -443,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-15T17:04:58Z",
+      "lastSuccessfulSync": "2026-10-15T21:26:41Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -706,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-15T17:04:58Z",
+      "lastSuccessfulSync": "2026-10-15T21:26:41Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -933,7 +945,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-15T17:04:58Z",
+      "lastSuccessfulSync": "2026-10-15T21:26:41Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
