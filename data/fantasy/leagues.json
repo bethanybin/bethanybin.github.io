@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-16T21:14:21Z",
+      "lastSuccessfulSync": "2026-10-17T04:32:50Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -37,7 +37,7 @@
             "nbaTeam": "PHO",
             "position": "SG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -73,7 +73,7 @@
             "nbaTeam": "ORL",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -145,7 +145,7 @@
             "nbaTeam": "SAC",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-16T21:14:21Z",
+      "lastSuccessfulSync": "2026-10-17T04:32:50Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -288,7 +288,7 @@
             "nbaTeam": "ATL",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -324,7 +324,7 @@
             "nbaTeam": "ORL",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -384,7 +384,7 @@
             "nbaTeam": "DAL",
             "position": "SG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-16T21:14:21Z",
+      "lastSuccessfulSync": "2026-10-17T04:32:50Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -515,7 +515,7 @@
             "nbaTeam": "PHI",
             "position": "SF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -563,7 +563,7 @@
             "nbaTeam": "DAL",
             "position": "Flx",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -707,7 +707,7 @@
             "nbaTeam": "WAS",
             "position": "SF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-16T21:14:21Z",
+      "lastSuccessfulSync": "2026-10-17T04:32:50Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -742,7 +742,7 @@
             "nbaTeam": "IND",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -826,7 +826,7 @@
             "nbaTeam": "TOR",
             "position": "Flx",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -886,7 +886,7 @@
             "nbaTeam": "MIN",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-16T21:14:21Z",
+      "lastSuccessfulSync": "2026-10-17T04:32:50Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -1101,7 +1101,7 @@
             "nbaTeam": "SAC",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1125,7 +1125,7 @@
             "nbaTeam": "PHI",
             "position": "SG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1161,7 +1161,7 @@
             "nbaTeam": "ATL",
             "position": "SF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1209,7 +1209,7 @@
             "nbaTeam": "MIL",
             "position": "C",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
