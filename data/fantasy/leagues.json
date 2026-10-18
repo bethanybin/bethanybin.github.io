@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-17T20:39:19Z",
+      "lastSuccessfulSync": "2026-10-18T04:38:53Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-17T20:39:19Z",
+      "lastSuccessfulSync": "2026-10-18T04:38:53Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-17T20:39:19Z",
+      "lastSuccessfulSync": "2026-10-18T04:38:53Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-17T20:39:19Z",
+      "lastSuccessfulSync": "2026-10-18T04:38:53Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-17T20:39:19Z",
+      "lastSuccessfulSync": "2026-10-18T04:38:53Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -1026,7 +1026,7 @@
           {
             "group": "active",
             "name": "Jeremy Sochan",
-            "nbaTeam": "POR",
+            "nbaTeam": "(N/A)",
             "position": "F",
             "status": {
               "dayToDay": false,
