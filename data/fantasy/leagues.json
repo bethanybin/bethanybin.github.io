@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-23T17:12:16Z",
+      "lastSuccessfulSync": "2026-10-23T21:27:17Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -217,9 +217,9 @@
             "nbaTeam": "PHO",
             "position": "PF",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-23T17:12:16Z",
+      "lastSuccessfulSync": "2026-10-23T21:27:17Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -344,8 +344,8 @@
           },
           {
             "group": "active",
-            "name": "Ryan Kalkbrenner",
-            "nbaTeam": "CHA",
+            "name": "Allen Graves",
+            "nbaTeam": "TOR",
             "position": "Flx",
             "status": {
               "dayToDay": false,
@@ -428,8 +428,8 @@
           },
           {
             "group": "bench",
-            "name": "Allen Graves",
-            "nbaTeam": "TOR",
+            "name": "Karlo Matkovic",
+            "nbaTeam": "NO",
             "position": "PF",
             "status": {
               "dayToDay": false,
@@ -440,9 +440,9 @@
           },
           {
             "group": "bench",
-            "name": "Karlo Matkovic",
-            "nbaTeam": "NO",
-            "position": "PF",
+            "name": "Ryan Kalkbrenner",
+            "nbaTeam": "CHA",
+            "position": "C",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-23T17:12:16Z",
+      "lastSuccessfulSync": "2026-10-23T21:27:17Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-23T17:12:16Z",
+      "lastSuccessfulSync": "2026-10-23T21:27:17Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-23T17:12:16Z",
+      "lastSuccessfulSync": "2026-10-23T21:27:17Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
