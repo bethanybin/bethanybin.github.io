@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-27T05:11:13Z",
+      "lastSuccessfulSync": "2026-10-27T12:18:00Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-27T05:11:13Z",
+      "lastSuccessfulSync": "2026-10-27T12:18:00Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-27T05:11:13Z",
+      "lastSuccessfulSync": "2026-10-27T12:18:00Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-27T05:11:13Z",
+      "lastSuccessfulSync": "2026-10-27T12:18:00Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-27T05:11:13Z",
+      "lastSuccessfulSync": "2026-10-27T12:18:00Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 4,
-          "rank": 8,
+          "rank": 10,
           "ties": 0,
           "wins": 5
         },
