@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-29T13:08:29Z",
+      "lastSuccessfulSync": "2026-10-29T22:47:57Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-29T13:08:29Z",
+      "lastSuccessfulSync": "2026-10-29T22:47:57Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -298,18 +298,6 @@
             "group": "active",
             "name": "Deni Avdija",
             "nbaTeam": "POR",
-            "position": "SF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "active",
-            "name": "Max Christie",
-            "nbaTeam": "DAL",
             "position": "SF",
             "status": {
               "dayToDay": false,
@@ -355,21 +343,9 @@
             }
           },
           {
-            "group": "bench",
+            "group": "active",
             "name": "Jaylen Wells",
             "nbaTeam": "MEM",
-            "position": "Flx",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Ron Holland",
-            "nbaTeam": "DET",
             "position": "Flx2",
             "status": {
               "dayToDay": false,
@@ -404,9 +380,33 @@
           },
           {
             "group": "bench",
+            "name": "Max Christie",
+            "nbaTeam": "DAL",
+            "position": "SF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
             "name": "Norman Powell",
             "nbaTeam": "CHI",
             "position": "SG",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Ron Holland",
+            "nbaTeam": "DET",
+            "position": "Flx2",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-29T13:08:29Z",
+      "lastSuccessfulSync": "2026-10-29T22:47:57Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -601,7 +601,7 @@
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-29T13:08:29Z",
+      "lastSuccessfulSync": "2026-10-29T22:47:57Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -742,7 +742,7 @@
             "nbaTeam": "IND",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -756,7 +756,7 @@
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-29T13:08:29Z",
+      "lastSuccessfulSync": "2026-10-29T22:47:57Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 4,
-          "rank": 9,
+          "rank": 8,
           "ties": 0,
           "wins": 5
         },
@@ -1053,7 +1053,7 @@
             "nbaTeam": "CLE",
             "position": "Flx",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
