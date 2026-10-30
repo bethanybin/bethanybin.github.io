@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-10-30T13:01:16Z",
+      "lastSuccessfulSync": "2026-10-30T22:24:40Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -133,7 +133,7 @@
             "nbaTeam": "WAS",
             "position": "Flx3",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -154,7 +154,7 @@
           {
             "group": "bench",
             "name": "Ochai Agbaji",
-            "nbaTeam": "(N/A)",
+            "nbaTeam": "OKC",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-30T13:01:16Z",
+      "lastSuccessfulSync": "2026-10-30T22:24:40Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-30T13:01:16Z",
+      "lastSuccessfulSync": "2026-10-30T22:24:40Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-30T13:01:16Z",
+      "lastSuccessfulSync": "2026-10-30T22:24:40Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-10-30T13:01:16Z",
+      "lastSuccessfulSync": "2026-10-30T22:24:40Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 4,
-          "rank": 10,
+          "rank": 8,
           "ties": 0,
           "wins": 5
         },
@@ -1017,7 +1017,7 @@
             "nbaTeam": "CHI",
             "position": "F",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
