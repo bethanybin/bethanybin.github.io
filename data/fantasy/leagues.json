@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-01T22:05:25Z",
+      "lastSuccessfulSync": "2026-11-02T06:13:39Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -13,10 +13,10 @@
         "id": "kc508py0msdsmwzh",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 13,
-          "rank": 14,
+          "losses": 27,
+          "rank": 16,
           "ties": 1,
-          "wins": 4
+          "wins": 8
         },
         "roster": [
           {
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-01T22:05:25Z",
+      "lastSuccessfulSync": "2026-11-02T06:13:39Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -276,10 +276,10 @@
         "id": "mi5afwp5mo7x0voo",
         "name": "Troy Bolton",
         "record": {
-          "losses": 0,
-          "rank": null,
+          "losses": 8,
+          "rank": 12,
           "ties": 0,
-          "wins": 0
+          "wins": 1
         },
         "roster": [
           {
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-01T22:05:25Z",
+      "lastSuccessfulSync": "2026-11-02T06:13:39Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -467,7 +467,7 @@
         "id": "vxhm3l5zmouag1pg",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 2,
+          "losses": 4,
           "rank": 16,
           "ties": 0,
           "wins": 0
@@ -499,8 +499,8 @@
           },
           {
             "group": "active",
-            "name": "Will Richard",
-            "nbaTeam": "GS",
+            "name": "Javonte Green",
+            "nbaTeam": "DET",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -535,8 +535,8 @@
           },
           {
             "group": "active",
-            "name": "Noah Clowney",
-            "nbaTeam": "BKN",
+            "name": "Trevon Brazile",
+            "nbaTeam": "DEN",
             "position": "PF",
             "status": {
               "dayToDay": false,
@@ -547,8 +547,8 @@
           },
           {
             "group": "active",
-            "name": "Goga Bitadze",
-            "nbaTeam": "ORL",
+            "name": "Donovan Clingan",
+            "nbaTeam": "POR",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -607,8 +607,8 @@
           },
           {
             "group": "bench",
-            "name": "Javonte Green",
-            "nbaTeam": "DET",
+            "name": "Dylan Harper",
+            "nbaTeam": "SA",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -619,8 +619,8 @@
           },
           {
             "group": "bench",
-            "name": "Dylan Harper",
-            "nbaTeam": "SA",
+            "name": "Will Richard",
+            "nbaTeam": "GS",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -643,8 +643,8 @@
           },
           {
             "group": "bench",
-            "name": "Trevon Brazile",
-            "nbaTeam": "DEN",
+            "name": "Noah Clowney",
+            "nbaTeam": "BKN",
             "position": "Flx",
             "status": {
               "dayToDay": false,
@@ -667,8 +667,8 @@
           },
           {
             "group": "bench",
-            "name": "Donovan Clingan",
-            "nbaTeam": "POR",
+            "name": "Goga Bitadze",
+            "nbaTeam": "ORL",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-01T22:05:25Z",
+      "lastSuccessfulSync": "2026-11-02T06:13:39Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -730,10 +730,10 @@
         "id": "8ybzxr7pmp0md8ar",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 6,
-          "rank": 14,
+          "losses": 13,
+          "rank": 18,
           "ties": 0,
-          "wins": 2
+          "wins": 3
         },
         "roster": [
           {
@@ -762,8 +762,8 @@
           },
           {
             "group": "active",
-            "name": "Keon Ellis",
-            "nbaTeam": "BKN",
+            "name": "Bennedict Mathurin",
+            "nbaTeam": "NO",
             "position": "G",
             "status": {
               "dayToDay": false,
@@ -798,8 +798,8 @@
           },
           {
             "group": "active",
-            "name": "Jay Huff",
-            "nbaTeam": "IND",
+            "name": "Ryan Kalkbrenner",
+            "nbaTeam": "CHA",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -826,7 +826,7 @@
             "nbaTeam": "TOR",
             "position": "Flx",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -858,9 +858,9 @@
           },
           {
             "group": "bench",
-            "name": "Matas Buzelis",
-            "nbaTeam": "CHI",
-            "position": "SF",
+            "name": "Keon Ellis",
+            "nbaTeam": "BKN",
+            "position": "SG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -870,9 +870,9 @@
           },
           {
             "group": "bench",
-            "name": "Bennedict Mathurin",
-            "nbaTeam": "NO",
-            "position": "SG",
+            "name": "Matas Buzelis",
+            "nbaTeam": "CHI",
+            "position": "SF",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -894,8 +894,8 @@
           },
           {
             "group": "bench",
-            "name": "Ryan Kalkbrenner",
-            "nbaTeam": "CHA",
+            "name": "Jay Huff",
+            "nbaTeam": "IND",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -946,9 +946,9 @@
             "nbaTeam": "DAL",
             "position": "C",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           }
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-01T22:05:25Z",
+      "lastSuccessfulSync": "2026-11-02T06:13:39Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -969,10 +969,10 @@
         "id": "fu2xgyaymolu2hij",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 4,
-          "rank": 7,
+          "losses": 6,
+          "rank": 5,
           "ties": 0,
-          "wins": 5
+          "wins": 12
         },
         "roster": [
           {
