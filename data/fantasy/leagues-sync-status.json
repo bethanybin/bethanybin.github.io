@@ -1,25 +1,25 @@
 {
-  "lastAttempt": "2026-11-03T01:01:26Z",
+  "lastAttempt": "2026-11-03T14:22:15Z",
   "leagues": {
     "2qe3cztxmo7x0voa": {
       "lastSuccessfulSync": "2026-11-03T01:01:26Z",
-      "state": "current"
+      "state": "failed"
     },
     "57fwz0glmsdsmwx1": {
       "lastSuccessfulSync": "2026-11-03T01:01:26Z",
-      "state": "current"
+      "state": "failed"
     },
     "a1m0ij55molu2hi5": {
       "lastSuccessfulSync": "2026-11-03T01:01:26Z",
-      "state": "current"
+      "state": "failed"
     },
     "jjv4bihwmouag1p7": {
       "lastSuccessfulSync": "2026-11-03T01:01:26Z",
-      "state": "current"
+      "state": "failed"
     },
     "rzxjb17qmp0md8ac": {
       "lastSuccessfulSync": "2026-11-03T01:01:26Z",
-      "state": "current"
+      "state": "failed"
     }
   },
   "schemaVersion": 1
