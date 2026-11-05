@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-05T06:53:23Z",
+      "lastSuccessfulSync": "2026-11-05T19:59:36Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-05T06:53:23Z",
+      "lastSuccessfulSync": "2026-11-05T19:59:36Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -372,9 +372,9 @@
             "nbaTeam": "DAL",
             "position": "SF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-05T06:53:23Z",
+      "lastSuccessfulSync": "2026-11-05T19:59:36Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-05T06:53:23Z",
+      "lastSuccessfulSync": "2026-11-05T19:59:36Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-05T06:53:23Z",
+      "lastSuccessfulSync": "2026-11-05T19:59:36Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -1125,9 +1125,9 @@
             "nbaTeam": "ATL",
             "position": "SF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -1149,9 +1149,9 @@
             "nbaTeam": "OKC",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
