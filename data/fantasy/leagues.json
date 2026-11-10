@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-09T22:25:21Z",
+      "lastSuccessfulSync": "2026-11-10T07:24:08Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -57,8 +57,8 @@
           },
           {
             "group": "active",
-            "name": "Caleb Martin",
-            "nbaTeam": "DAL",
+            "name": "Pelle Larsson",
+            "nbaTeam": "MIA",
             "position": "SF",
             "status": {
               "dayToDay": false,
@@ -81,8 +81,8 @@
           },
           {
             "group": "active",
-            "name": "Bennedict Mathurin",
-            "nbaTeam": "NO",
+            "name": "Oso Ighodaro",
+            "nbaTeam": "PHO",
             "position": "F",
             "status": {
               "dayToDay": false,
@@ -93,8 +93,8 @@
           },
           {
             "group": "active",
-            "name": "Alperen Sengun",
-            "nbaTeam": "HOU",
+            "name": "Duop Reath",
+            "nbaTeam": "PHO",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -105,20 +105,20 @@
           },
           {
             "group": "active",
-            "name": "Johnny Furphy",
-            "nbaTeam": "IND",
+            "name": "Darius Acuff",
+            "nbaTeam": "SAC",
             "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
           {
             "group": "active",
-            "name": "Brandin Podziemski",
-            "nbaTeam": "GS",
+            "name": "Baba Miller",
+            "nbaTeam": "LAC",
             "position": "Flx2",
             "status": {
               "dayToDay": false,
@@ -129,21 +129,9 @@
           },
           {
             "group": "active",
-            "name": "Tre Johnson",
-            "nbaTeam": "WAS",
+            "name": "Jared McCain",
+            "nbaTeam": "OKC",
             "position": "Flx3",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Darius Acuff",
-            "nbaTeam": "SAC",
-            "position": "PG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -165,8 +153,20 @@
           },
           {
             "group": "bench",
-            "name": "Pelle Larsson",
-            "nbaTeam": "MIA",
+            "name": "Johnny Furphy",
+            "nbaTeam": "IND",
+            "position": "Flx",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": true,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Tre Johnson",
+            "nbaTeam": "WAS",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -177,21 +177,33 @@
           },
           {
             "group": "bench",
-            "name": "Jared McCain",
-            "nbaTeam": "OKC",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Baba Miller",
-            "nbaTeam": "LAC",
+            "name": "Brandin Podziemski",
+            "nbaTeam": "GS",
             "position": "SF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Caleb Martin",
+            "nbaTeam": "DAL",
+            "position": "SF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Bennedict Mathurin",
+            "nbaTeam": "NO",
+            "position": "F",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -213,20 +225,8 @@
           },
           {
             "group": "bench",
-            "name": "Oso Ighodaro",
-            "nbaTeam": "PHO",
-            "position": "PF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Duop Reath",
-            "nbaTeam": "PHO",
+            "name": "Alperen Sengun",
+            "nbaTeam": "HOU",
             "position": "C",
             "status": {
               "dayToDay": false,
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-09T22:25:21Z",
+      "lastSuccessfulSync": "2026-11-10T07:24:08Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -344,8 +344,8 @@
           },
           {
             "group": "active",
-            "name": "Allen Graves",
-            "nbaTeam": "TOR",
+            "name": "Pat Spencer",
+            "nbaTeam": "PHO",
             "position": "Flx",
             "status": {
               "dayToDay": false,
@@ -355,10 +355,10 @@
             }
           },
           {
-            "group": "bench",
-            "name": "Pat Spencer",
-            "nbaTeam": "PHO",
-            "position": "PG",
+            "group": "active",
+            "name": "Nique Clifford",
+            "nbaTeam": "OKC",
+            "position": "Flx2",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -392,18 +392,6 @@
           },
           {
             "group": "bench",
-            "name": "Nique Clifford",
-            "nbaTeam": "OKC",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
             "name": "Jaylen Wells",
             "nbaTeam": "MEM",
             "position": "Flx2",
@@ -419,6 +407,18 @@
             "name": "Ron Holland",
             "nbaTeam": "DET",
             "position": "Flx2",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Allen Graves",
+            "nbaTeam": "TOR",
+            "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-09T22:25:21Z",
+      "lastSuccessfulSync": "2026-11-10T07:24:08Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -475,8 +475,8 @@
         "roster": [
           {
             "group": "active",
-            "name": "Anthony Black",
-            "nbaTeam": "ORL",
+            "name": "Labaron Philon",
+            "nbaTeam": "PHI",
             "position": "PG",
             "status": {
               "dayToDay": false,
@@ -491,7 +491,19 @@
             "nbaTeam": "ORL",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": true,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "Anthony Black",
+            "nbaTeam": "ORL",
+            "position": "SG",
+            "status": {
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -499,8 +511,8 @@
           },
           {
             "group": "active",
-            "name": "Javonte Green",
-            "nbaTeam": "DET",
+            "name": "Cooper Flagg",
+            "nbaTeam": "DAL",
             "position": "SG",
             "status": {
               "dayToDay": false,
@@ -547,6 +559,18 @@
           },
           {
             "group": "active",
+            "name": "Nikola Jovic",
+            "nbaTeam": "MIA",
+            "position": "PF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
             "name": "Donovan Clingan",
             "nbaTeam": "POR",
             "position": "C",
@@ -559,8 +583,8 @@
           },
           {
             "group": "active",
-            "name": "Cooper Flagg",
-            "nbaTeam": "DAL",
+            "name": "Goga Bitadze",
+            "nbaTeam": "ORL",
             "position": "Flx",
             "status": {
               "dayToDay": false,
@@ -583,9 +607,9 @@
           },
           {
             "group": "bench",
-            "name": "Labaron Philon",
-            "nbaTeam": "PHI",
-            "position": "PG",
+            "name": "Reed Sheppard",
+            "nbaTeam": "HOU",
+            "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -595,9 +619,9 @@
           },
           {
             "group": "bench",
-            "name": "Reed Sheppard",
-            "nbaTeam": "HOU",
-            "position": "Flx",
+            "name": "Javonte Green",
+            "nbaTeam": "DET",
+            "position": "SG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -655,30 +679,6 @@
           },
           {
             "group": "bench",
-            "name": "Nikola Jovic",
-            "nbaTeam": "MIA",
-            "position": "PF",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Goga Bitadze",
-            "nbaTeam": "ORL",
-            "position": "C",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
             "name": "Moses Moody",
             "nbaTeam": "GS",
             "position": "SG",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-09T22:25:21Z",
+      "lastSuccessfulSync": "2026-11-10T07:24:08Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -731,7 +731,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 20,
-          "rank": 18,
+          "rank": 17,
           "ties": 0,
           "wins": 4
         },
@@ -762,9 +762,21 @@
           },
           {
             "group": "active",
-            "name": "Bennedict Mathurin",
-            "nbaTeam": "NO",
+            "name": "Brayden Burries",
+            "nbaTeam": "MIL",
             "position": "G",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "Nique Clifford",
+            "nbaTeam": "OKC",
+            "position": "SF",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -833,22 +845,10 @@
             }
           },
           {
-            "group": "bench",
-            "name": "Brayden Burries",
+            "group": "active",
+            "name": "Kel'el Ware",
             "nbaTeam": "MIL",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Nique Clifford",
-            "nbaTeam": "OKC",
-            "position": "SG",
+            "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -873,6 +873,18 @@
             "name": "Matas Buzelis",
             "nbaTeam": "CHI",
             "position": "SF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "bench",
+            "name": "Bennedict Mathurin",
+            "nbaTeam": "NO",
+            "position": "SG",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -918,18 +930,6 @@
           },
           {
             "group": "bench",
-            "name": "Kel'el Ware",
-            "nbaTeam": "MIL",
-            "position": "Flx",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
             "name": "Kon Knueppel",
             "nbaTeam": "CHA",
             "position": "Flx",
@@ -946,9 +946,9 @@
             "nbaTeam": "DAL",
             "position": "C",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           }
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-09T22:25:21Z",
+      "lastSuccessfulSync": "2026-11-10T07:24:08Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 13,
-          "rank": 10,
+          "rank": 11,
           "ties": 0,
           "wins": 14
         },
@@ -981,7 +981,19 @@
             "nbaTeam": "UTA",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": true,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "VJ Edgecombe",
+            "nbaTeam": "PHI",
+            "position": "SG",
+            "status": {
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1008,6 +1020,18 @@
               "dayToDay": false,
               "injuredReserve": false,
               "out": false,
+              "suspended": false
+            }
+          },
+          {
+            "group": "active",
+            "name": "Jaylin Williams",
+            "nbaTeam": "OKC",
+            "position": "PF",
+            "status": {
+              "dayToDay": false,
+              "injuredReserve": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -1049,8 +1073,8 @@
           },
           {
             "group": "active",
-            "name": "Carter Bryant",
-            "nbaTeam": "SA",
+            "name": "Brayden Burries",
+            "nbaTeam": "MIL",
             "position": "Flx",
             "status": {
               "dayToDay": false,
@@ -1060,10 +1084,10 @@
             }
           },
           {
-            "group": "bench",
+            "group": "active",
             "name": "Davion Mitchell",
             "nbaTeam": "MIA",
-            "position": "PG",
+            "position": "Flx",
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
@@ -1080,30 +1104,6 @@
               "dayToDay": false,
               "injuredReserve": false,
               "out": true,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "Brayden Burries",
-            "nbaTeam": "MIL",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
-              "suspended": false
-            }
-          },
-          {
-            "group": "bench",
-            "name": "VJ Edgecombe",
-            "nbaTeam": "PHI",
-            "position": "SG",
-            "status": {
-              "dayToDay": false,
-              "injuredReserve": false,
-              "out": false,
               "suspended": false
             }
           },
@@ -1145,11 +1145,11 @@
           },
           {
             "group": "bench",
-            "name": "Jaylin Williams",
-            "nbaTeam": "OKC",
-            "position": "PF",
+            "name": "Carter Bryant",
+            "nbaTeam": "SA",
+            "position": "Flx",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -1161,7 +1161,7 @@
             "nbaTeam": "MEM",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
