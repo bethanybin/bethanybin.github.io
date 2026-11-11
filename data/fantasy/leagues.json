@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-11T06:32:00Z",
+      "lastSuccessfulSync": "2026-11-11T19:39:01Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -87,7 +87,7 @@
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-11T06:32:00Z",
+      "lastSuccessfulSync": "2026-11-11T19:39:01Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-11T06:32:00Z",
+      "lastSuccessfulSync": "2026-11-11T19:39:01Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-11T06:32:00Z",
+      "lastSuccessfulSync": "2026-11-11T19:39:01Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -768,7 +768,7 @@
             "status": {
               "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -790,7 +790,7 @@
             "nbaTeam": "CHI",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-11T06:32:00Z",
+      "lastSuccessfulSync": "2026-11-11T19:39:01Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -981,9 +981,9 @@
             "nbaTeam": "UTA",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -1029,9 +1029,9 @@
             "nbaTeam": "OKC",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
