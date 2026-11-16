@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-16T06:36:41Z",
+      "lastSuccessfulSync": "2026-11-16T22:10:10Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -133,9 +133,9 @@
             "nbaTeam": "WAS",
             "position": "Flx3",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-16T06:36:41Z",
+      "lastSuccessfulSync": "2026-11-16T22:10:10Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -384,9 +384,9 @@
             "nbaTeam": "DAL",
             "position": "SF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-16T06:36:41Z",
+      "lastSuccessfulSync": "2026-11-16T22:10:10Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -659,7 +659,7 @@
             "nbaTeam": "MIA",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-16T06:36:41Z",
+      "lastSuccessfulSync": "2026-11-16T22:10:10Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -946,9 +946,9 @@
             "nbaTeam": "DAL",
             "position": "C",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           }
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-16T06:36:41Z",
+      "lastSuccessfulSync": "2026-11-16T22:10:10Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 19,
-          "rank": 13,
+          "rank": 14,
           "ties": 0,
           "wins": 17
         },
@@ -1149,9 +1149,9 @@
             "nbaTeam": "OKC",
             "position": "PF",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
-              "out": true,
+              "out": false,
               "suspended": false
             }
           },
