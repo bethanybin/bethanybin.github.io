@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-22T06:55:59Z",
+      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -25,7 +25,7 @@
             "nbaTeam": "DAL",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T06:55:59Z",
+      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -300,9 +300,9 @@
             "nbaTeam": "CHI",
             "position": "SG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
-              "out": false,
+              "out": true,
               "suspended": false
             }
           },
@@ -420,7 +420,7 @@
             "nbaTeam": "DET",
             "position": "Flx2",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T06:55:59Z",
+      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T06:55:59Z",
+      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T06:55:59Z",
+      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -970,7 +970,7 @@
         "name": "The Bounce Passers",
         "record": {
           "losses": 19,
-          "rank": 13,
+          "rank": 14,
           "ties": 0,
           "wins": 17
         },
