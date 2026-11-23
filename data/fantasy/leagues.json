@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
+      "lastSuccessfulSync": "2026-11-23T07:45:17Z",
       "league": {
         "id": "57fwz0glmsdsmwx1",
         "name": "StephBetter Dynasty League",
@@ -13,10 +13,10 @@
         "id": "kc508py0msdsmwzh",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 39,
-          "rank": 11,
+          "losses": 54,
+          "rank": 13,
           "ties": 1,
-          "wins": 32
+          "wins": 35
         },
         "roster": [
           {
@@ -25,7 +25,7 @@
             "nbaTeam": "DAL",
             "position": "PG",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -264,7 +264,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
+      "lastSuccessfulSync": "2026-11-23T07:45:17Z",
       "league": {
         "id": "2qe3cztxmo7x0voa",
         "name": "The Hall of Fame",
@@ -276,10 +276,10 @@
         "id": "mi5afwp5mo7x0voo",
         "name": "Troy Bolton",
         "record": {
-          "losses": 19,
+          "losses": 24,
           "rank": 12,
-          "ties": 0,
-          "wins": 8
+          "ties": 1,
+          "wins": 11
         },
         "roster": [
           {
@@ -336,7 +336,7 @@
             "nbaTeam": "SA",
             "position": "C",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -455,7 +455,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
+      "lastSuccessfulSync": "2026-11-23T07:45:17Z",
       "league": {
         "id": "jjv4bihwmouag1p7",
         "name": "RR16 Pau Gasol Division",
@@ -467,10 +467,10 @@
         "id": "vxhm3l5zmouag1pg",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 8,
-          "rank": 16,
+          "losses": 9,
+          "rank": 15,
           "ties": 0,
-          "wins": 0
+          "wins": 1
         },
         "roster": [
           {
@@ -575,7 +575,7 @@
             "nbaTeam": "SA",
             "position": "PG",
             "status": {
-              "dayToDay": false,
+              "dayToDay": true,
               "injuredReserve": false,
               "out": false,
               "suspended": false
@@ -718,7 +718,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
+      "lastSuccessfulSync": "2026-11-23T07:45:17Z",
       "league": {
         "id": "rzxjb17qmp0md8ac",
         "name": "FBI DYNASTY OG MELBOURNE",
@@ -730,8 +730,8 @@
         "id": "8ybzxr7pmp0md8ar",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 20,
-          "rank": 14,
+          "losses": 28,
+          "rank": 15,
           "ties": 0,
           "wins": 12
         },
@@ -957,7 +957,7 @@
       }
     },
     {
-      "lastSuccessfulSync": "2026-11-22T19:44:42Z",
+      "lastSuccessfulSync": "2026-11-23T07:45:17Z",
       "league": {
         "id": "a1m0ij55molu2hi5",
         "name": "FBI Dynasty - Sabonis",
@@ -969,10 +969,10 @@
         "id": "fu2xgyaymolu2hij",
         "name": "The Bounce Passers",
         "record": {
-          "losses": 19,
-          "rank": 14,
+          "losses": 26,
+          "rank": 18,
           "ties": 0,
-          "wins": 17
+          "wins": 19
         },
         "roster": [
           {
@@ -1017,7 +1017,7 @@
             "nbaTeam": "CHI",
             "position": "F",
             "status": {
-              "dayToDay": true,
+              "dayToDay": false,
               "injuredReserve": false,
               "out": false,
               "suspended": false
